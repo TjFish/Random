@@ -1,4 +1,7 @@
 # Random 一切随机
+
+[Sample Demo](<https://tjfish.github.io/Random/>)
+
 目前支持以下随机
 
 - **宝可梦** （如妙蛙种子，带图片）
