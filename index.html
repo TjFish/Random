@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <script src='random-name.js'></script>
+        <script src='random-country.js'></script>
+        <title>Random-随机</title>
+    </head>
+    <body>
+        <div style="text-align: center;margin-top: 300px;">
+            <div>
+                <button  onclick="ChineseName()">随机中国姓名</button>
+                <button  onclick="PokemonName()">随机宝可梦</button>
+                <button  onclick="Country()">随机国家</button>
+            </div>
+            <div id="display">
+                <p id="text"></p>
+                <img id="random_img" src="">
+            </div>
+        </div>
+    </body>
+    <script>
+        function ChineseName()
+        {
+            //console.log(RandomName.ChineseName())
+            document.getElementById("text").innerText=RandomName.ChineseName();
+        }
+        function PokemonName()
+        {
+            //console.log(RandomName.PokemonName())
+            document.getElementById("text").innerText=RandomName.PokemonName();
+        }
+        function Country()
+        {
+            let c=RandomCountry.Country();
+            document.getElementById("text").innerText=c.translation+" "+c.name  ;
+            document.getElementById("random_img").src=c.flag;
+        }
+    </script>
+</html>
