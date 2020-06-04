@@ -12,9 +12,9 @@
     {
         let randomPokemon= pick(PokemonNames);
         //宝可梦图片
-        randomPokemon.icon='';
-        randomPokemon.img='';
-        return pick(PokemonNames);
+        randomPokemon.icon='https://github.com/TjFish/Random/raw/master/Pokemon-Image/icons/'+parseFloat(randomPokemon.ID.substring(1),10)+'.png';;
+        randomPokemon.img='https://github.com/TjFish/Random/raw/master/Pokemon-Image/imgs/'+parseFloat(randomPokemon.ID.substring(1),10)+'.png';
+        return randomPokemon;
     }
     function pick(arr) {
         arr = arr || [];
