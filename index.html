@@ -3,6 +3,7 @@
     <head>
         <meta charset='UTF-8'>
         <script src='random-name.js'></script>
+        <script src='random-pokemon.js'></script>
         <script src='random-country.js'></script>
         <title>Random-随机</title>
     </head>
@@ -23,16 +24,16 @@
         function ChineseName()
         {
             //console.log(RandomName.ChineseName())
-            document.getElementById("text").innerText=RandomName.ChineseName();
+            document.getElementById("text").innerText=RandomChineseName.random();
         }
         function PokemonName()
         {
-            //console.log(RandomName.PokemonName())
-            document.getElementById("text").innerText=RandomName.PokemonName();
+            let p=RandomPokemon.random();
+            document.getElementById("text").innerText=p.Chinese +' '+p.Japanese+' '+p.English;
         }
         function Country()
         {
-            let c=RandomCountry.Country();
+            let c=RandomCountry.random();
             document.getElementById("text").innerText=c.translation+" "+c.name  ;
             document.getElementById("random_img").src=c.flag;
         }

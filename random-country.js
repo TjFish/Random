@@ -363,11 +363,11 @@ const WORLD_COUNTRIES = [
   ];
 (function () {
     var RandomCountry = {
-        Country:Country
+        random:random
     };
-    function Country()
+    function random()
     {
-        randomCountry=pick(WORLD_COUNTRIES);
+        let randomCountry=pick(WORLD_COUNTRIES);
         //国旗
         randomCountry.flag='https://corona.lmao.ninja/assets/img/flags/'+randomCountry.abbreviation.toLowerCase()+".png"
         return randomCountry;

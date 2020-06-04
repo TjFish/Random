@@ -1,0 +1,4507 @@
+//宝可梦
+
+//var PokemonStr='妙蛙种子,妙蛙草,妙蛙花,小火龙,火恐龙,喷火龙,杰尼龟,卡咪龟,水箭龟,绿毛虫,铁甲蛹,巴大蝶,独角虫,铁壳蛹,大针蜂,波波,比比鸟,大比鸟,小拉达,拉达,烈雀,大嘴雀,阿柏蛇,阿柏怪,皮卡丘,雷丘,穿山鼠,穿山王,尼多兰,尼多娜,尼多后,尼多朗,尼多力诺,尼多王,皮皮,皮可西,六尾,九尾,胖丁,胖可丁,超音蝠,大嘴蝠,走路草,臭臭花,霸王花,派拉斯,派拉斯特,毛球,摩鲁蛾,地鼠,三地鼠,喵喵,猫老大,可达鸭,哥达鸭,猴怪,火暴猴,卡蒂狗,风速狗,蚊香蝌蚪,蚊香君,蚊香泳士,凯西,勇基拉,胡地,腕力,豪力,怪力,喇叭芽,口呆花,大食花,玛瑙水母,毒刺水母,小拳石,隆隆石,隆隆岩,小火马,烈焰马,呆呆兽,呆壳兽,小磁怪,三合一磁怪,大葱鸭,嘟嘟,嘟嘟利,小海狮,白海狮,臭泥,臭臭泥,大舌贝,刺甲贝,鬼斯,鬼斯通,耿鬼,大岩蛇,催眠貘,引梦貘人,大钳蟹,巨钳蟹,霹雳电球,顽皮雷弹,蛋蛋,椰蛋树,卡拉卡拉,嘎啦嘎啦,飞腿郎,快拳郎,大舌头,瓦斯弹,双弹瓦斯,独角犀牛,钻角犀兽,吉利蛋,蔓藤怪,袋兽,墨海马,海刺龙,角金鱼,金鱼王,海星星,宝石海星,魔墙人偶,飞天螳螂,迷唇姐,电击兽,鸭嘴火兽,凯罗斯,肯泰罗,鲤鱼王,暴鲤龙,拉普拉斯,百变怪,伊布,水伊布,雷伊布,火伊布,多边兽,菊石兽,多刺菊石兽,化石盔,镰刀盔,化石翼龙,卡比兽,急冻鸟,闪电鸟,火焰鸟,迷你龙,哈克龙,快龙,超梦,梦幻,菊草叶,月桂叶,大竺葵,火球鼠,火岩鼠,火暴兽,小锯鳄,蓝鳄,大力鳄,尾立,大尾立,咕咕,猫头夜鹰,芭瓢虫,安瓢虫,圆丝蛛,阿利多斯,叉字蝠,灯笼鱼,电灯怪,皮丘,皮宝宝,宝宝丁,波克比,波克基古,天然雀,天然鸟,咩利羊,茸茸羊,电龙,美丽花,玛力露,玛力露丽,树才怪,蚊香蛙皇,毽子草,毽子花,毽子棉,长尾怪手,向日种子,向日花怪,蜻蜻蜓,乌波,沼王,太阳伊布,月亮伊布,黑暗鸦,呆呆王,梦妖,未知图腾,果然翁,麒麟奇,榛果球,佛烈托斯,土龙弟弟,天蝎,大钢蛇,布鲁,布鲁皇,千针鱼,巨钳螳螂,壶壶,赫拉克罗斯,狃拉,熊宝宝,圈圈熊,熔岩虫,熔岩蜗牛,小山猪,长毛猪,太阳珊瑚,铁炮鱼,章鱼桶,信使鸟,巨翅飞鱼,盔甲鸟,戴鲁比,黑鲁加,刺龙王,小小象,顿甲,多边兽Ⅱ,惊角鹿,图图犬,无畏小子,战舞郎,迷唇娃,电击怪,鸭嘴宝宝,大奶罐,幸福蛋,雷公,炎帝,水君,幼基拉斯,沙基拉斯,班基拉斯,洛奇亚,凤王,时拉比,木守宫,森林蜥蜴,蜥蜴王,火稚鸡,力壮鸡,火焰鸡,水跃鱼,沼跃鱼,巨沼怪,土狼犬,大狼犬,蛇纹熊,直冲熊,刺尾虫,甲壳茧,狩猎凤蝶,盾甲茧,毒粉蛾,莲叶童子,莲帽小童,乐天河童,橡实果,长鼻叶,狡猾天狗,傲骨燕,大王燕,长翅鸥,大嘴鸥,拉鲁拉丝,奇鲁莉安,沙奈朵,溜溜糖球,雨翅蛾,蘑蘑菇,斗笠菇,懒人獭,过动猿,请假王,土居忍士,铁面忍者,脱壳忍者,咕妞妞,吼爆弹,爆音怪,幕下力士,铁掌力士,露力丽,朝北鼻,向尾喵,优雅猫,勾魂眼,大嘴娃,可可多拉,可多拉,波士可多拉,玛沙那,恰雷姆,落雷兽,雷电兽,正电拍拍,负电拍拍,电萤虫,甜甜萤,毒蔷薇,溶食兽,吞食兽,利牙鱼,巨牙鲨,吼吼鲸,吼鲸王,呆火驼,喷火驼,煤炭龟,跳跳猪,噗噗猪,晃晃斑,大颚蚁,超音波幼虫,沙漠蜻蜓,刺球仙人掌,梦歌仙人掌,青绵鸟,七夕青鸟,猫鼬斩,饭匙蛇,月石,太阳岩,泥泥鳅,鲶鱼王,龙虾小兵,铁螯龙虾,天秤偶,念力土偶,触手百合,摇篮百合,太古羽虫,太古盔甲,丑丑鱼,美纳斯,飘浮泡泡,变隐龙,怨影娃娃,诅咒娃娃,夜巡灵,彷徨夜灵,热带龙,风铃铃,阿勃梭鲁,小果然,雪童子,冰鬼护,海豹球,海魔狮,帝牙海狮,珍珠贝,猎斑鱼,樱花鱼,古空棘鱼,爱心鱼,宝贝龙,甲壳龙,暴飞龙,铁哑铃,金属怪,巨金怪,雷吉洛克,雷吉艾斯,雷吉斯奇鲁,拉帝亚斯,拉帝欧斯,盖欧卡,固拉多,烈空坐,基拉祈,代欧奇希斯,草苗龟,树林龟,土台龟,小火焰猴,猛火猴,烈焰猴,波加曼,波皇子,帝王拿波,姆克儿,姆克鸟,姆克鹰,大牙狸,大尾狸,圆法师,音箱蟀,小猫怪,勒克猫,伦琴猫,含羞苞,罗丝雷朵,头盖龙,战槌龙,盾甲龙,护城龙,结草儿,结草贵妇,绅士蛾,三蜜蜂,蜂女王,帕奇利兹,泳圈鼬,浮潜鼬,樱花宝,樱花儿,无壳海兔,海兔兽,双尾怪手,飘飘球,随风球,卷卷耳,长耳兔,梦妖魔,乌鸦头头,魅力喵,东施喵,铃铛响,臭鼬噗,坦克臭鼬,铜镜怪,青铜钟,盆才怪,魔尼尼,小福蛋,聒噪鸟,花岩怪,圆陆鲨,尖牙陆鲨,烈咬陆鲨,小卡比兽,利欧路,路卡利欧,沙河马,河马兽,钳尾蝎,龙王蝎,不良蛙,毒骷蛙,尖牙笼,荧光鱼,霓虹鱼,小球飞鱼,雪笠怪,暴雪王,玛狃拉,自爆磁怪,大舌舔,超甲狂犀,巨蔓藤,电击魔兽,鸭嘴炎兽,波克基斯,远古巨蜓,叶伊布,冰伊布,天蝎王,象牙猪,多边兽Ｚ,艾路雷朵,大朝北鼻,黑夜魔灵,雪妖女,洛托姆,由克希,艾姆利多,亚克诺姆,帝牙卢卡,帕路奇亚,席多蓝恩,雷吉奇卡斯,骑拉帝纳,克雷色利亚,霏欧纳,玛纳霏,达克莱伊,谢米,阿尔宙斯,比克提尼,藤藤蛇,青藤蛇,君主蛇,暖暖猪,炒炒猪,炎武王,水水獭,双刃丸,大剑鬼,探探鼠,步哨鼠,小约克,哈约克,长毛狗,扒手猫,酷豹,花椰猴,花椰猿,爆香猴,爆香猿,冷水猴,冷水猿,食梦梦,梦梦蚀,豆豆鸽,咕咕鸽,高傲雉鸡,斑斑马,雷电斑马,石丸子,地幔岩,庞岩怪,滚滚蝙蝠,心蝙蝠,螺钉地鼠,龙头地鼠,差不多娃娃,搬运小匠,铁骨土人,修建老匠,圆蝌蚪,蓝蟾蜍,蟾蜍王,投摔鬼,打击鬼,虫宝包,宝包茧,保姆虫,百足蜈蚣,车轮球,蜈蚣王,木棉球,风妖精,百合根娃娃,裙儿小姐,野蛮鲈鱼,黑眼鳄,混混鳄,流氓鳄,火红不倒翁,达摩狒狒,沙铃仙人掌,石居蟹,岩殿居蟹,滑滑小子,头巾混混,象征鸟,哭哭面具,死神棺,原盖海龟,肋骨海龟,始祖小鸟,始祖大鸟,破破袋,灰尘山,索罗亚,索罗亚克,泡沫栗鼠,奇诺栗鼠,哥德宝宝,哥德小童,哥德小姐,单卵细胞球,双卵细胞球,人造细胞卵,鸭宝宝,舞天鹅,迷你冰,多多冰,双倍多多冰,四季鹿,萌芽鹿,电飞鼠,盖盖虫,骑士蜗牛,哎呀球菇,败露球菇,轻飘飘,胖嘟嘟,保姆曼波,电电虫,电蜘蛛,种子铁球,坚果哑铃,齿轮儿,齿轮组,齿轮怪,麻麻小鱼,麻麻鳗,麻麻鳗鱼王,小灰怪,大宇怪,烛光灵,灯火幽灵,水晶灯火灵,牙牙,斧牙龙,双斧战龙,喷嚏熊,冻原熊,几何雪花,小嘴蜗,敏捷虫,泥巴鱼,功夫鼬,师父鼬,赤面龙,泥偶小人,泥偶巨人,驹刀小兵,劈斩司令,爆炸头水牛,毛头小鹰,勇士雄鹰,秃鹰丫头,秃鹰娜,熔蚁兽,铁蚁,单首龙,双首暴龙,三首恶龙,燃烧虫,火神蛾,勾帕路翁,代拉基翁,毕力吉翁,龙卷云,雷电云,莱希拉姆,捷克罗姆,土地云,酋雷姆,凯路迪欧,美洛耶塔,盖诺赛克特,哈力栗,胖胖哈力,布里卡隆,火狐狸,长尾火狐,妖火红狐,呱呱泡蛙,呱头蛙,甲贺忍蛙,掘掘兔,掘地兔,小箭雀,火箭雀,烈箭鹰,粉蝶虫,粉蝶蛹,彩粉蝶,小狮狮,火炎狮,花蓓蓓,花叶蒂,花洁夫人,坐骑小羊,坐骑山羊,顽皮熊猫,流氓熊猫,多丽米亚,妙喵,超能妙喵,独剑鞘,双剑鞘,坚盾剑怪,粉香香,芳香精,绵绵泡芙,胖甜妮,好啦鱿,乌贼王,龟脚脚,龟足巨铠,垃垃藻,毒藻龙,铁臂枪虾,钢炮臂虾,伞电蜥,光电伞蜥,宝宝暴龙,怪颚龙,冰雪龙,冰雪巨龙,仙子伊布,摔角鹰人,咚咚鼠,小碎钻,黏黏宝,黏美儿,黏美龙,钥圈儿,小木灵,朽木妖,南瓜精,南瓜怪人,冰宝,冰岩怪,嗡蝠,音波龙,哲尔尼亚斯,伊裴尔塔尔,基格尔德,蒂安希,胡帕,波尔凯尼恩,木木枭,投羽枭,狙射树枭,火斑喵,炎热喵,炽焰咆哮虎,球球海狮,花漾海狮,西狮海壬,小笃儿,喇叭啄鸟,铳嘴大鸟,猫鼬少,猫鼬探长,强颚鸡母虫,虫电宝,锹农炮虫,好胜蟹,好胜毛蟹,花舞鸟,萌虻,蝶结萌虻,岩狗狗,鬃岩狼人,弱丁鱼,好坏星,超坏星,泥驴仔,重泥挽马,滴蛛,滴蛛霸,伪螳草,兰螳花,睡睡菇,灯罩夜菇,夜盗火蜥,焰后蜥,童偶熊,穿着熊,甜竹竹,甜舞妮,甜冷美后,花疗环环,智挥猩,投掷猴,胆小虫,具甲武者,沙丘娃,噬沙堡爷,拳海参,属性：空,银伴战兽,小陨星,树枕尾熊,爆焰龟兽,托戈德玛尔,谜拟Ｑ,磨牙彩皮鱼,老翁龙,破破舵轮,心鳞宝,鳞甲龙,杖尾鳞甲龙,卡璞・鸣鸣,卡璞・蝶蝶,卡璞・哞哞,卡璞・鳍鳍,科斯莫古,科斯莫姆,索尔迦雷欧,露奈雅拉,虚吾伊德,爆肌蚊,费洛美螂,电束木,铁火辉夜,纸御剑,恶食大王,奈克洛兹玛,玛机雅娜,玛夏多,毒贝比,四颚针龙,垒磊石,砰头小丑,捷拉奥拉,美录坦,美录梅塔,敲音猴,啪咚猴,轰擂金刚猩,炎兔儿,腾蹴小将,闪焰王牌,泪眼蜥,变涩蜥,千面避役,贪心栗鼠,藏饱栗鼠,稚山雀,蓝鸦,钢铠鸦,索侦虫,天罩虫,以欧路普,偷儿狐,狐大盗,幼棉棉,白蓬蓬,毛辫羊,毛毛角羊,咬咬龟,暴噬龟,来电汪,逐电犬,小炭仔,大炭车,巨炭山,啃果虫,苹裹龙,丰蜜龙,沙包蛇,沙螺蟒,古月鸟,刺梭鱼,戽斗尖梭,毒电婴,颤弦蝾螈,烧火蚣,焚焰蚣,拳拳蛸,八爪武师,来悲茶,怖思壶,迷布莉姆,提布莉姆,布莉姆温,捣蛋小妖,诈唬魔,长毛巨魔,堵拦熊,喵头目,魔灵珊瑚,葱游兵,踏冰人偶,死神板,小仙奶,霜奶仙,列阵兵,啪嚓海胆,雪吞虫,雪绒蛾,巨石丁,冰砌鹅,爱管侍,莫鲁贝可,铜象,大王铜象,雷鸟龙,雷鸟海兽,鳃鱼龙,鳃鱼海兽,铝钢龙,多龙梅西亚,多龙奇,多龙巴鲁托,苍响,藏玛然特,无极汰那';
+/**
+ * Updated by TjFish on 2020/6/4.
+ */
+(function () {
+    var RandomPokemon = {
+        random: random
+    };
+    function random()
+    {
+        let randomPokemon= pick(PokemonNames);
+        //宝可梦图片
+        randomPokemon.icon='';
+        randomPokemon.img='';
+        return pick(PokemonNames);
+    }
+    function pick(arr) {
+        arr = arr || [];
+        return arr[natural(0, arr.length - 1)];
+    }
+
+    function natural(min, max) {
+        return Math.round(Math.random() * (max - min)) + min;
+    }
+
+    if (typeof module === "object" && module.exports) {
+        module.exports = RandomPokemon;
+    } else if (typeof define === "function" && define.amd) {
+        define("RandomPokemon", [], function () {
+            return RandomPokemon;
+        });
+    } else if (typeof define === "function" && define.cmd) {
+        define(function () {
+            return RandomPokemon;
+        });
+    }
+    this.RandomPokemon = RandomPokemon;
+
+}).call(this);
+
+const PokemonNames=[{
+    "ID": "#001",
+    "Chinese": "妙蛙种子",
+    "Japanese": "フシギダネ",
+    "English": "Bulbasaur"
+}, {
+    "ID": "#002",
+    "Chinese": "妙蛙草",
+    "Japanese": "フシギソウ",
+    "English": "Ivysaur"
+}, {
+    "ID": "#003",
+    "Chinese": "妙蛙花",
+    "Japanese": "フシギバナ",
+    "English": "Venusaur"
+}, {
+    "ID": "#004",
+    "Chinese": "小火龙",
+    "Japanese": "ヒトカゲ",
+    "English": "Charmander"
+}, {
+    "ID": "#005",
+    "Chinese": "火恐龙",
+    "Japanese": "リザード",
+    "English": "Charmeleon"
+}, {
+    "ID": "#006",
+    "Chinese": "喷火龙",
+    "Japanese": "リザードン",
+    "English": "Charizard"
+}, {
+    "ID": "#007",
+    "Chinese": "杰尼龟",
+    "Japanese": "ゼニガメ",
+    "English": "Squirtle"
+}, {
+    "ID": "#008",
+    "Chinese": "卡咪龟",
+    "Japanese": "カメール",
+    "English": "Wartortle"
+}, {
+    "ID": "#009",
+    "Chinese": "水箭龟",
+    "Japanese": "カメックス",
+    "English": "Blastoise"
+}, {
+    "ID": "#010",
+    "Chinese": "绿毛虫",
+    "Japanese": "キャタピー",
+    "English": "Caterpie"
+}, {
+    "ID": "#011",
+    "Chinese": "铁甲蛹",
+    "Japanese": "トランセル",
+    "English": "Metapod"
+}, {
+    "ID": "#012",
+    "Chinese": "巴大蝶",
+    "Japanese": "バタフリー",
+    "English": "Butterfree"
+}, {
+    "ID": "#013",
+    "Chinese": "独角虫",
+    "Japanese": "ビードル",
+    "English": "Weedle"
+}, {
+    "ID": "#014",
+    "Chinese": "铁壳蛹",
+    "Japanese": "コクーン",
+    "English": "Kakuna"
+}, {
+    "ID": "#015",
+    "Chinese": "大针蜂",
+    "Japanese": "スピアー",
+    "English": "Beedrill"
+}, {
+    "ID": "#016",
+    "Chinese": "波波",
+    "Japanese": "ポッポ",
+    "English": "Pidgey"
+}, {
+    "ID": "#017",
+    "Chinese": "比比鸟",
+    "Japanese": "ピジョン",
+    "English": "Pidgeotto"
+}, {
+    "ID": "#018",
+    "Chinese": "大比鸟",
+    "Japanese": "ピジョット",
+    "English": "Pidgeot"
+}, {
+    "ID": "#019",
+    "Chinese": "小拉达",
+    "Japanese": "コラッタ",
+    "English": "Rattata"
+}, {
+    "ID": "#020",
+    "Chinese": "拉达",
+    "Japanese": "ラッタ",
+    "English": "Raticate"
+}, {
+    "ID": "#021",
+    "Chinese": "烈雀",
+    "Japanese": "オニスズメ",
+    "English": "Spearow"
+}, {
+    "ID": "#022",
+    "Chinese": "大嘴雀",
+    "Japanese": "オニドリル",
+    "English": "Fearow"
+}, {
+    "ID": "#023",
+    "Chinese": "阿柏蛇",
+    "Japanese": "アーボ",
+    "English": "Ekans"
+}, {
+    "ID": "#024",
+    "Chinese": "阿柏怪",
+    "Japanese": "アーボック",
+    "English": "Arbok"
+}, {
+    "ID": "#025",
+    "Chinese": "皮卡丘",
+    "Japanese": "ピカチュウ",
+    "English": "Pikachu"
+}, {
+    "ID": "#026",
+    "Chinese": "雷丘",
+    "Japanese": "ライチュウ",
+    "English": "Raichu"
+}, {
+    "ID": "#027",
+    "Chinese": "穿山鼠",
+    "Japanese": "サンド",
+    "English": "Sandshrew"
+}, {
+    "ID": "#028",
+    "Chinese": "穿山王",
+    "Japanese": "サンドパン",
+    "English": "Sandslash"
+}, {
+    "ID": "#029",
+    "Chinese": "尼多兰",
+    "Japanese": "ニドラン♀",
+    "English": "Nidoran♀"
+}, {
+    "ID": "#030",
+    "Chinese": "尼多娜",
+    "Japanese": "ニドリーナ",
+    "English": "Nidorina"
+}, {
+    "ID": "#031",
+    "Chinese": "尼多后",
+    "Japanese": "ニドクイン",
+    "English": "Nidoqueen"
+}, {
+    "ID": "#032",
+    "Chinese": "尼多朗",
+    "Japanese": "ニドラン♂",
+    "English": "Nidoran♂"
+}, {
+    "ID": "#033",
+    "Chinese": "尼多力诺",
+    "Japanese": "ニドリーノ",
+    "English": "Nidorino"
+}, {
+    "ID": "#034",
+    "Chinese": "尼多王",
+    "Japanese": "ニドキング",
+    "English": "Nidoking"
+}, {
+    "ID": "#035",
+    "Chinese": "皮皮",
+    "Japanese": "ピッピ",
+    "English": "Clefairy"
+}, {
+    "ID": "#036",
+    "Chinese": "皮可西",
+    "Japanese": "ピクシー",
+    "English": "Clefable"
+}, {
+    "ID": "#037",
+    "Chinese": "六尾",
+    "Japanese": "ロコン",
+    "English": "Vulpix"
+}, {
+    "ID": "#038",
+    "Chinese": "九尾",
+    "Japanese": "キュウコン",
+    "English": "Ninetales"
+}, {
+    "ID": "#039",
+    "Chinese": "胖丁",
+    "Japanese": "プリン",
+    "English": "Jigglypuff"
+}, {
+    "ID": "#040",
+    "Chinese": "胖可丁",
+    "Japanese": "プクリン",
+    "English": "Wigglytuff"
+}, {
+    "ID": "#041",
+    "Chinese": "超音蝠",
+    "Japanese": "ズバット",
+    "English": "Zubat"
+}, {
+    "ID": "#042",
+    "Chinese": "大嘴蝠",
+    "Japanese": "ゴルバット",
+    "English": "Golbat"
+}, {
+    "ID": "#043",
+    "Chinese": "走路草",
+    "Japanese": "ナゾノクサ",
+    "English": "Oddish"
+}, {
+    "ID": "#044",
+    "Chinese": "臭臭花",
+    "Japanese": "クサイハナ",
+    "English": "Gloom"
+}, {
+    "ID": "#045",
+    "Chinese": "霸王花",
+    "Japanese": "ラフレシア",
+    "English": "Vileplume"
+}, {
+    "ID": "#046",
+    "Chinese": "派拉斯",
+    "Japanese": "パラス",
+    "English": "Paras"
+}, {
+    "ID": "#047",
+    "Chinese": "派拉斯特",
+    "Japanese": "パラセクト",
+    "English": "Parasect"
+}, {
+    "ID": "#048",
+    "Chinese": "毛球",
+    "Japanese": "コンパン",
+    "English": "Venonat"
+}, {
+    "ID": "#049",
+    "Chinese": "摩鲁蛾",
+    "Japanese": "モルフォン",
+    "English": "Venomoth"
+}, {
+    "ID": "#050",
+    "Chinese": "地鼠",
+    "Japanese": "ディグダ",
+    "English": "Diglett"
+}, {
+    "ID": "#051",
+    "Chinese": "三地鼠",
+    "Japanese": "ダグトリオ",
+    "English": "Dugtrio"
+}, {
+    "ID": "#052",
+    "Chinese": "喵喵",
+    "Japanese": "ニャース",
+    "English": "Meowth"
+}, {
+    "ID": "#053",
+    "Chinese": "猫老大",
+    "Japanese": "ペルシアン",
+    "English": "Persian"
+}, {
+    "ID": "#054",
+    "Chinese": "可达鸭",
+    "Japanese": "コダック",
+    "English": "Psyduck"
+}, {
+    "ID": "#055",
+    "Chinese": "哥达鸭",
+    "Japanese": "ゴルダック",
+    "English": "Golduck"
+}, {
+    "ID": "#056",
+    "Chinese": "猴怪",
+    "Japanese": "マンキー",
+    "English": "Mankey"
+}, {
+    "ID": "#057",
+    "Chinese": "火暴猴",
+    "Japanese": "オコリザル",
+    "English": "Primeape"
+}, {
+    "ID": "#058",
+    "Chinese": "卡蒂狗",
+    "Japanese": "ガーディ",
+    "English": "Growlithe"
+}, {
+    "ID": "#059",
+    "Chinese": "风速狗",
+    "Japanese": "ウインディ",
+    "English": "Arcanine"
+}, {
+    "ID": "#060",
+    "Chinese": "蚊香蝌蚪",
+    "Japanese": "ニョロモ",
+    "English": "Poliwag"
+}, {
+    "ID": "#061",
+    "Chinese": "蚊香君",
+    "Japanese": "ニョロゾ",
+    "English": "Poliwhirl"
+}, {
+    "ID": "#062",
+    "Chinese": "蚊香泳士",
+    "Japanese": "ニョロボン",
+    "English": "Poliwrath"
+}, {
+    "ID": "#063",
+    "Chinese": "凯西",
+    "Japanese": "ケーシィ",
+    "English": "Abra"
+}, {
+    "ID": "#064",
+    "Chinese": "勇基拉",
+    "Japanese": "ユンゲラー",
+    "English": "Kadabra"
+}, {
+    "ID": "#065",
+    "Chinese": "胡地",
+    "Japanese": "フーディン",
+    "English": "Alakazam"
+}, {
+    "ID": "#066",
+    "Chinese": "腕力",
+    "Japanese": "ワンリキー",
+    "English": "Machop"
+}, {
+    "ID": "#067",
+    "Chinese": "豪力",
+    "Japanese": "ゴーリキー",
+    "English": "Machoke"
+}, {
+    "ID": "#068",
+    "Chinese": "怪力",
+    "Japanese": "カイリキー",
+    "English": "Machamp"
+}, {
+    "ID": "#069",
+    "Chinese": "喇叭芽",
+    "Japanese": "マダツボミ",
+    "English": "Bellsprout"
+}, {
+    "ID": "#070",
+    "Chinese": "口呆花",
+    "Japanese": "ウツドン",
+    "English": "Weepinbell"
+}, {
+    "ID": "#071",
+    "Chinese": "大食花",
+    "Japanese": "ウツボット",
+    "English": "Victreebel"
+}, {
+    "ID": "#072",
+    "Chinese": "玛瑙水母",
+    "Japanese": "メノクラゲ",
+    "English": "Tentacool"
+}, {
+    "ID": "#073",
+    "Chinese": "毒刺水母",
+    "Japanese": "ドククラゲ",
+    "English": "Tentacruel"
+}, {
+    "ID": "#074",
+    "Chinese": "小拳石",
+    "Japanese": "イシツブテ",
+    "English": "Geodude"
+}, {
+    "ID": "#075",
+    "Chinese": "隆隆石",
+    "Japanese": "ゴローン",
+    "English": "Graveler"
+}, {
+    "ID": "#076",
+    "Chinese": "隆隆岩",
+    "Japanese": "ゴローニャ",
+    "English": "Golem"
+}, {
+    "ID": "#077",
+    "Chinese": "小火马",
+    "Japanese": "ポニータ",
+    "English": "Ponyta"
+}, {
+    "ID": "#078",
+    "Chinese": "烈焰马",
+    "Japanese": "ギャロップ",
+    "English": "Rapidash"
+}, {
+    "ID": "#079",
+    "Chinese": "呆呆兽",
+    "Japanese": "ヤドン",
+    "English": "Slowpoke"
+}, {
+    "ID": "#080",
+    "Chinese": "呆壳兽",
+    "Japanese": "ヤドラン",
+    "English": "Slowbro"
+}, {
+    "ID": "#081",
+    "Chinese": "小磁怪",
+    "Japanese": "コイル",
+    "English": "Magnemite"
+}, {
+    "ID": "#082",
+    "Chinese": "三合一磁怪",
+    "Japanese": "レアコイル",
+    "English": "Magneton"
+}, {
+    "ID": "#083",
+    "Chinese": "大葱鸭",
+    "Japanese": "カモネギ",
+    "English": "Farfetch'd"
+}, {
+    "ID": "#084",
+    "Chinese": "嘟嘟",
+    "Japanese": "ドードー",
+    "English": "Doduo"
+}, {
+    "ID": "#085",
+    "Chinese": "嘟嘟利",
+    "Japanese": "ドードリオ",
+    "English": "Dodrio"
+}, {
+    "ID": "#086",
+    "Chinese": "小海狮",
+    "Japanese": "パウワウ",
+    "English": "Seel"
+}, {
+    "ID": "#087",
+    "Chinese": "白海狮",
+    "Japanese": "ジュゴン",
+    "English": "Dewgong"
+}, {
+    "ID": "#088",
+    "Chinese": "臭泥",
+    "Japanese": "ベトベター",
+    "English": "Grimer"
+}, {
+    "ID": "#089",
+    "Chinese": "臭臭泥",
+    "Japanese": "ベトベトン",
+    "English": "Muk"
+}, {
+    "ID": "#090",
+    "Chinese": "大舌贝",
+    "Japanese": "シェルダー",
+    "English": "Shellder"
+}, {
+    "ID": "#091",
+    "Chinese": "刺甲贝",
+    "Japanese": "パルシェン",
+    "English": "Cloyster"
+}, {
+    "ID": "#092",
+    "Chinese": "鬼斯",
+    "Japanese": "ゴース",
+    "English": "Gastly"
+}, {
+    "ID": "#093",
+    "Chinese": "鬼斯通",
+    "Japanese": "ゴースト",
+    "English": "Haunter"
+}, {
+    "ID": "#094",
+    "Chinese": "耿鬼",
+    "Japanese": "ゲンガー",
+    "English": "Gengar"
+}, {
+    "ID": "#095",
+    "Chinese": "大岩蛇",
+    "Japanese": "イワーク",
+    "English": "Onix"
+}, {
+    "ID": "#096",
+    "Chinese": "催眠貘",
+    "Japanese": "スリープ",
+    "English": "Drowzee"
+}, {
+    "ID": "#097",
+    "Chinese": "引梦貘人",
+    "Japanese": "スリーパー",
+    "English": "Hypno"
+}, {
+    "ID": "#098",
+    "Chinese": "大钳蟹",
+    "Japanese": "クラブ",
+    "English": "Krabby"
+}, {
+    "ID": "#099",
+    "Chinese": "巨钳蟹",
+    "Japanese": "キングラー",
+    "English": "Kingler"
+}, {
+    "ID": "#100",
+    "Chinese": "霹雳电球",
+    "Japanese": "ビリリダマ",
+    "English": "Voltorb"
+}, {
+    "ID": "#101",
+    "Chinese": "顽皮雷弹",
+    "Japanese": "マルマイン",
+    "English": "Electrode"
+}, {
+    "ID": "#102",
+    "Chinese": "蛋蛋",
+    "Japanese": "タマタマ",
+    "English": "Exeggcute"
+}, {
+    "ID": "#103",
+    "Chinese": "椰蛋树",
+    "Japanese": "ナッシー",
+    "English": "Exeggutor"
+}, {
+    "ID": "#104",
+    "Chinese": "卡拉卡拉",
+    "Japanese": "カラカラ",
+    "English": "Cubone"
+}, {
+    "ID": "#105",
+    "Chinese": "嘎啦嘎啦",
+    "Japanese": "ガラガラ",
+    "English": "Marowak"
+}, {
+    "ID": "#106",
+    "Chinese": "飞腿郎",
+    "Japanese": "サワムラー",
+    "English": "Hitmonlee"
+}, {
+    "ID": "#107",
+    "Chinese": "快拳郎",
+    "Japanese": "エビワラー",
+    "English": "Hitmonchan"
+}, {
+    "ID": "#108",
+    "Chinese": "大舌头",
+    "Japanese": "ベロリンガ",
+    "English": "Lickitung"
+}, {
+    "ID": "#109",
+    "Chinese": "瓦斯弹",
+    "Japanese": "ドガース",
+    "English": "Koffing"
+}, {
+    "ID": "#110",
+    "Chinese": "双弹瓦斯",
+    "Japanese": "マタドガス",
+    "English": "Weezing"
+}, {
+    "ID": "#111",
+    "Chinese": "独角犀牛",
+    "Japanese": "サイホーン",
+    "English": "Rhyhorn"
+}, {
+    "ID": "#112",
+    "Chinese": "钻角犀兽",
+    "Japanese": "サイドン",
+    "English": "Rhydon"
+}, {
+    "ID": "#113",
+    "Chinese": "吉利蛋",
+    "Japanese": "ラッキー",
+    "English": "Chansey"
+}, {
+    "ID": "#114",
+    "Chinese": "蔓藤怪",
+    "Japanese": "モンジャラ",
+    "English": "Tangela"
+}, {
+    "ID": "#115",
+    "Chinese": "袋兽",
+    "Japanese": "ガルーラ",
+    "English": "Kangaskhan"
+}, {
+    "ID": "#116",
+    "Chinese": "墨海马",
+    "Japanese": "タッツー",
+    "English": "Horsea"
+}, {
+    "ID": "#117",
+    "Chinese": "海刺龙",
+    "Japanese": "シードラ",
+    "English": "Seadra"
+}, {
+    "ID": "#118",
+    "Chinese": "角金鱼",
+    "Japanese": "トサキント",
+    "English": "Goldeen"
+}, {
+    "ID": "#119",
+    "Chinese": "金鱼王",
+    "Japanese": "アズマオウ",
+    "English": "Seaking"
+}, {
+    "ID": "#120",
+    "Chinese": "海星星",
+    "Japanese": "ヒトデマン",
+    "English": "Staryu"
+}, {
+    "ID": "#121",
+    "Chinese": "宝石海星",
+    "Japanese": "スターミー",
+    "English": "Starmie"
+}, {
+    "ID": "#122",
+    "Chinese": "魔墙人偶",
+    "Japanese": "バリヤード",
+    "English": "Mr. Mime"
+}, {
+    "ID": "#123",
+    "Chinese": "飞天螳螂",
+    "Japanese": "ストライク",
+    "English": "Scyther"
+}, {
+    "ID": "#124",
+    "Chinese": "迷唇姐",
+    "Japanese": "ルージュラ",
+    "English": "Jynx"
+}, {
+    "ID": "#125",
+    "Chinese": "电击兽",
+    "Japanese": "エレブー",
+    "English": "Electabuzz"
+}, {
+    "ID": "#126",
+    "Chinese": "鸭嘴火兽",
+    "Japanese": "ブーバー",
+    "English": "Magmar"
+}, {
+    "ID": "#127",
+    "Chinese": "凯罗斯",
+    "Japanese": "カイロス",
+    "English": "Pinsir"
+}, {
+    "ID": "#128",
+    "Chinese": "肯泰罗",
+    "Japanese": "ケンタロス",
+    "English": "Tauros"
+}, {
+    "ID": "#129",
+    "Chinese": "鲤鱼王",
+    "Japanese": "コイキング",
+    "English": "Magikarp"
+}, {
+    "ID": "#130",
+    "Chinese": "暴鲤龙",
+    "Japanese": "ギャラドス",
+    "English": "Gyarados"
+}, {
+    "ID": "#131",
+    "Chinese": "拉普拉斯",
+    "Japanese": "ラプラス",
+    "English": "Lapras"
+}, {
+    "ID": "#132",
+    "Chinese": "百变怪",
+    "Japanese": "メタモン",
+    "English": "Ditto"
+}, {
+    "ID": "#133",
+    "Chinese": "伊布",
+    "Japanese": "イーブイ",
+    "English": "Eevee"
+}, {
+    "ID": "#134",
+    "Chinese": "水伊布",
+    "Japanese": "シャワーズ",
+    "English": "Vaporeon"
+}, {
+    "ID": "#135",
+    "Chinese": "雷伊布",
+    "Japanese": "サンダース",
+    "English": "Jolteon"
+}, {
+    "ID": "#136",
+    "Chinese": "火伊布",
+    "Japanese": "ブースター",
+    "English": "Flareon"
+}, {
+    "ID": "#137",
+    "Chinese": "多边兽",
+    "Japanese": "ポリゴン",
+    "English": "Porygon"
+}, {
+    "ID": "#138",
+    "Chinese": "菊石兽",
+    "Japanese": "オムナイト",
+    "English": "Omanyte"
+}, {
+    "ID": "#139",
+    "Chinese": "多刺菊石兽",
+    "Japanese": "オムスター",
+    "English": "Omastar"
+}, {
+    "ID": "#140",
+    "Chinese": "化石盔",
+    "Japanese": "カブト",
+    "English": "Kabuto"
+}, {
+    "ID": "#141",
+    "Chinese": "镰刀盔",
+    "Japanese": "カブトプス",
+    "English": "Kabutops"
+}, {
+    "ID": "#142",
+    "Chinese": "化石翼龙",
+    "Japanese": "プテラ",
+    "English": "Aerodactyl"
+}, {
+    "ID": "#143",
+    "Chinese": "卡比兽",
+    "Japanese": "カビゴン",
+    "English": "Snorlax"
+}, {
+    "ID": "#144",
+    "Chinese": "急冻鸟",
+    "Japanese": "フリーザー",
+    "English": "Articuno"
+}, {
+    "ID": "#145",
+    "Chinese": "闪电鸟",
+    "Japanese": "サンダー",
+    "English": "Zapdos"
+}, {
+    "ID": "#146",
+    "Chinese": "火焰鸟",
+    "Japanese": "ファイヤー",
+    "English": "Moltres"
+}, {
+    "ID": "#147",
+    "Chinese": "迷你龙",
+    "Japanese": "ミニリュウ",
+    "English": "Dratini"
+}, {
+    "ID": "#148",
+    "Chinese": "哈克龙",
+    "Japanese": "ハクリュー",
+    "English": "Dragonair"
+}, {
+    "ID": "#149",
+    "Chinese": "快龙",
+    "Japanese": "カイリュー",
+    "English": "Dragonite"
+}, {
+    "ID": "#150",
+    "Chinese": "超梦",
+    "Japanese": "ミュウツー",
+    "English": "Mewtwo"
+}, {
+    "ID": "#151",
+    "Chinese": "梦幻",
+    "Japanese": "ミュウ",
+    "English": "Mew"
+}, {
+    "ID": "第二世代"
+}, {
+    "ID": "#152",
+    "Chinese": "菊草叶",
+    "Japanese": "チコリータ",
+    "English": "Chikorita"
+}, {
+    "ID": "#153",
+    "Chinese": "月桂叶",
+    "Japanese": "ベイリーフ",
+    "English": "Bayleef"
+}, {
+    "ID": "#154",
+    "Chinese": "大竺葵",
+    "Japanese": "メガニウム",
+    "English": "Meganium"
+}, {
+    "ID": "#155",
+    "Chinese": "火球鼠",
+    "Japanese": "ヒノアラシ",
+    "English": "Cyndaquil"
+}, {
+    "ID": "#156",
+    "Chinese": "火岩鼠",
+    "Japanese": "マグマラシ",
+    "English": "Quilava"
+}, {
+    "ID": "#157",
+    "Chinese": "火暴兽",
+    "Japanese": "バクフーン",
+    "English": "Typhlosion"
+}, {
+    "ID": "#158",
+    "Chinese": "小锯鳄",
+    "Japanese": "ワニノコ",
+    "English": "Totodile"
+}, {
+    "ID": "#159",
+    "Chinese": "蓝鳄",
+    "Japanese": "アリゲイツ",
+    "English": "Croconaw"
+}, {
+    "ID": "#160",
+    "Chinese": "大力鳄",
+    "Japanese": "オーダイル",
+    "English": "Feraligatr"
+}, {
+    "ID": "#161",
+    "Chinese": "尾立",
+    "Japanese": "オタチ",
+    "English": "Sentret"
+}, {
+    "ID": "#162",
+    "Chinese": "大尾立",
+    "Japanese": "オオタチ",
+    "English": "Furret"
+}, {
+    "ID": "#163",
+    "Chinese": "咕咕",
+    "Japanese": "ホーホー",
+    "English": "Hoothoot"
+}, {
+    "ID": "#164",
+    "Chinese": "猫头夜鹰",
+    "Japanese": "ヨルノズク",
+    "English": "Noctowl"
+}, {
+    "ID": "#165",
+    "Chinese": "芭瓢虫",
+    "Japanese": "レディバ",
+    "English": "Ledyba"
+}, {
+    "ID": "#166",
+    "Chinese": "安瓢虫",
+    "Japanese": "レディアン",
+    "English": "Ledian"
+}, {
+    "ID": "#167",
+    "Chinese": "圆丝蛛",
+    "Japanese": "イトマル",
+    "English": "Spinarak"
+}, {
+    "ID": "#168",
+    "Chinese": "阿利多斯",
+    "Japanese": "アリアドス",
+    "English": "Ariados"
+}, {
+    "ID": "#169",
+    "Chinese": "叉字蝠",
+    "Japanese": "クロバット",
+    "English": "Crobat"
+}, {
+    "ID": "#170",
+    "Chinese": "灯笼鱼",
+    "Japanese": "チョンチー",
+    "English": "Chinchou"
+}, {
+    "ID": "#171",
+    "Chinese": "电灯怪",
+    "Japanese": "ランターン",
+    "English": "Lanturn"
+}, {
+    "ID": "#172",
+    "Chinese": "皮丘",
+    "Japanese": "ピチュー",
+    "English": "Pichu"
+}, {
+    "ID": "#173",
+    "Chinese": "皮宝宝",
+    "Japanese": "ピィ",
+    "English": "Cleffa"
+}, {
+    "ID": "#174",
+    "Chinese": "宝宝丁",
+    "Japanese": "ププリン",
+    "English": "Igglybuff"
+}, {
+    "ID": "#175",
+    "Chinese": "波克比",
+    "Japanese": "トゲピー",
+    "English": "Togepi"
+}, {
+    "ID": "#176",
+    "Chinese": "波克基古",
+    "Japanese": "トゲチック",
+    "English": "Togetic"
+}, {
+    "ID": "#177",
+    "Chinese": "天然雀",
+    "Japanese": "ネイティ",
+    "English": "Natu"
+}, {
+    "ID": "#178",
+    "Chinese": "天然鸟",
+    "Japanese": "ネイティオ",
+    "English": "Xatu"
+}, {
+    "ID": "#179",
+    "Chinese": "咩利羊",
+    "Japanese": "メリープ",
+    "English": "Mareep"
+}, {
+    "ID": "#180",
+    "Chinese": "茸茸羊",
+    "Japanese": "モココ",
+    "English": "Flaaffy"
+}, {
+    "ID": "#181",
+    "Chinese": "电龙",
+    "Japanese": "デンリュウ",
+    "English": "Ampharos"
+}, {
+    "ID": "#182",
+    "Chinese": "美丽花",
+    "Japanese": "キレイハナ",
+    "English": "Bellossom"
+}, {
+    "ID": "#183",
+    "Chinese": "玛力露",
+    "Japanese": "マリル",
+    "English": "Marill"
+}, {
+    "ID": "#184",
+    "Chinese": "玛力露丽",
+    "Japanese": "マリルリ",
+    "English": "Azumarill"
+}, {
+    "ID": "#185",
+    "Chinese": "树才怪",
+    "Japanese": "ウソッキー",
+    "English": "Sudowoodo"
+}, {
+    "ID": "#186",
+    "Chinese": "蚊香蛙皇",
+    "Japanese": "ニョロトノ",
+    "English": "Politoed"
+}, {
+    "ID": "#187",
+    "Chinese": "毽子草",
+    "Japanese": "ハネッコ",
+    "English": "Hoppip"
+}, {
+    "ID": "#188",
+    "Chinese": "毽子花",
+    "Japanese": "ポポッコ",
+    "English": "Skiploom"
+}, {
+    "ID": "#189",
+    "Chinese": "毽子棉",
+    "Japanese": "ワタッコ",
+    "English": "Jumpluff"
+}, {
+    "ID": "#190",
+    "Chinese": "长尾怪手",
+    "Japanese": "エイパム",
+    "English": "Aipom"
+}, {
+    "ID": "#191",
+    "Chinese": "向日种子",
+    "Japanese": "ヒマナッツ",
+    "English": "Sunkern"
+}, {
+    "ID": "#192",
+    "Chinese": "向日花怪",
+    "Japanese": "キマワリ",
+    "English": "Sunflora"
+}, {
+    "ID": "#193",
+    "Chinese": "蜻蜻蜓",
+    "Japanese": "ヤンヤンマ",
+    "English": "Yanma"
+}, {
+    "ID": "#194",
+    "Chinese": "乌波",
+    "Japanese": "ウパー",
+    "English": "Wooper"
+}, {
+    "ID": "#195",
+    "Chinese": "沼王",
+    "Japanese": "ヌオー",
+    "English": "Quagsire"
+}, {
+    "ID": "#196",
+    "Chinese": "太阳伊布",
+    "Japanese": "エーフィ",
+    "English": "Espeon"
+}, {
+    "ID": "#197",
+    "Chinese": "月亮伊布",
+    "Japanese": "ブラッキー",
+    "English": "Umbreon"
+}, {
+    "ID": "#198",
+    "Chinese": "黑暗鸦",
+    "Japanese": "ヤミカラス",
+    "English": "Murkrow"
+}, {
+    "ID": "#199",
+    "Chinese": "呆呆王",
+    "Japanese": "ヤドキング",
+    "English": "Slowking"
+}, {
+    "ID": "#200",
+    "Chinese": "梦妖",
+    "Japanese": "ムウマ",
+    "English": "Misdreavus"
+}, {
+    "ID": "#201",
+    "Chinese": "未知图腾",
+    "Japanese": "アンノーン",
+    "English": "Unown"
+}, {
+    "ID": "#202",
+    "Chinese": "果然翁",
+    "Japanese": "ソーナンス",
+    "English": "Wobbuffet"
+}, {
+    "ID": "#203",
+    "Chinese": "麒麟奇",
+    "Japanese": "キリンリキ",
+    "English": "Girafarig"
+}, {
+    "ID": "#204",
+    "Chinese": "榛果球",
+    "Japanese": "クヌギダマ",
+    "English": "Pineco"
+}, {
+    "ID": "#205",
+    "Chinese": "佛烈托斯",
+    "Japanese": "フォレトス",
+    "English": "Forretress"
+}, {
+    "ID": "#206",
+    "Chinese": "土龙弟弟",
+    "Japanese": "ノコッチ",
+    "English": "Dunsparce"
+}, {
+    "ID": "#207",
+    "Chinese": "天蝎",
+    "Japanese": "グライガー",
+    "English": "Gligar"
+}, {
+    "ID": "#208",
+    "Chinese": "大钢蛇",
+    "Japanese": "ハガネール",
+    "English": "Steelix"
+}, {
+    "ID": "#209",
+    "Chinese": "布鲁",
+    "Japanese": "ブルー",
+    "English": "Snubbull"
+}, {
+    "ID": "#210",
+    "Chinese": "布鲁皇",
+    "Japanese": "グランブル",
+    "English": "Granbull"
+}, {
+    "ID": "#211",
+    "Chinese": "千针鱼",
+    "Japanese": "ハリーセン",
+    "English": "Qwilfish"
+}, {
+    "ID": "#212",
+    "Chinese": "巨钳螳螂",
+    "Japanese": "ハッサム",
+    "English": "Scizor"
+}, {
+    "ID": "#213",
+    "Chinese": "壶壶",
+    "Japanese": "ツボツボ",
+    "English": "Shuckle"
+}, {
+    "ID": "#214",
+    "Chinese": "赫拉克罗斯",
+    "Japanese": "ヘラクロス",
+    "English": "Heracross"
+}, {
+    "ID": "#215",
+    "Chinese": "狃拉",
+    "Japanese": "ニューラ",
+    "English": "Sneasel"
+}, {
+    "ID": "#216",
+    "Chinese": "熊宝宝",
+    "Japanese": "ヒメグマ",
+    "English": "Teddiursa"
+}, {
+    "ID": "#217",
+    "Chinese": "圈圈熊",
+    "Japanese": "リングマ",
+    "English": "Ursaring"
+}, {
+    "ID": "#218",
+    "Chinese": "熔岩虫",
+    "Japanese": "マグマッグ",
+    "English": "Slugma"
+}, {
+    "ID": "#219",
+    "Chinese": "熔岩蜗牛",
+    "Japanese": "マグカルゴ",
+    "English": "Magcargo"
+}, {
+    "ID": "#220",
+    "Chinese": "小山猪",
+    "Japanese": "ウリムー",
+    "English": "Swinub"
+}, {
+    "ID": "#221",
+    "Chinese": "长毛猪",
+    "Japanese": "イノムー",
+    "English": "Piloswine"
+}, {
+    "ID": "#222",
+    "Chinese": "太阳珊瑚",
+    "Japanese": "サニーゴ",
+    "English": "Corsola"
+}, {
+    "ID": "#223",
+    "Chinese": "铁炮鱼",
+    "Japanese": "テッポウオ",
+    "English": "Remoraid"
+}, {
+    "ID": "#224",
+    "Chinese": "章鱼桶",
+    "Japanese": "オクタン",
+    "English": "Octillery"
+}, {
+    "ID": "#225",
+    "Chinese": "信使鸟",
+    "Japanese": "デリバード",
+    "English": "Delibird"
+}, {
+    "ID": "#226",
+    "Chinese": "巨翅飞鱼",
+    "Japanese": "マンタイン",
+    "English": "Mantine"
+}, {
+    "ID": "#227",
+    "Chinese": "盔甲鸟",
+    "Japanese": "エアームド",
+    "English": "Skarmory"
+}, {
+    "ID": "#228",
+    "Chinese": "戴鲁比",
+    "Japanese": "デルビル",
+    "English": "Houndour"
+}, {
+    "ID": "#229",
+    "Chinese": "黑鲁加",
+    "Japanese": "ヘルガー",
+    "English": "Houndoom"
+}, {
+    "ID": "#230",
+    "Chinese": "刺龙王",
+    "Japanese": "キングドラ",
+    "English": "Kingdra"
+}, {
+    "ID": "#231",
+    "Chinese": "小小象",
+    "Japanese": "ゴマゾウ",
+    "English": "Phanpy"
+}, {
+    "ID": "#232",
+    "Chinese": "顿甲",
+    "Japanese": "ドンファン",
+    "English": "Donphan"
+}, {
+    "ID": "#233",
+    "Chinese": "多边兽Ⅱ",
+    "Japanese": "ポリゴン２",
+    "English": "Porygon2"
+}, {
+    "ID": "#234",
+    "Chinese": "惊角鹿",
+    "Japanese": "オドシシ",
+    "English": "Stantler"
+}, {
+    "ID": "#235",
+    "Chinese": "图图犬",
+    "Japanese": "ドーブル",
+    "English": "Smeargle"
+}, {
+    "ID": "#236",
+    "Chinese": "无畏小子",
+    "Japanese": "バルキー",
+    "English": "Tyrogue"
+}, {
+    "ID": "#237",
+    "Chinese": "战舞郎",
+    "Japanese": "カポエラー",
+    "English": "Hitmontop"
+}, {
+    "ID": "#238",
+    "Chinese": "迷唇娃",
+    "Japanese": "ムチュール",
+    "English": "Smoochum"
+}, {
+    "ID": "#239",
+    "Chinese": "电击怪",
+    "Japanese": "エレキッド",
+    "English": "Elekid"
+}, {
+    "ID": "#240",
+    "Chinese": "鸭嘴宝宝",
+    "Japanese": "ブビィ",
+    "English": "Magby"
+}, {
+    "ID": "#241",
+    "Chinese": "大奶罐",
+    "Japanese": "ミルタンク",
+    "English": "Miltank"
+}, {
+    "ID": "#242",
+    "Chinese": "幸福蛋",
+    "Japanese": "ハピナス",
+    "English": "Blissey"
+}, {
+    "ID": "#243",
+    "Chinese": "雷公",
+    "Japanese": "ライコウ",
+    "English": "Raikou"
+}, {
+    "ID": "#244",
+    "Chinese": "炎帝",
+    "Japanese": "エンテイ",
+    "English": "Entei"
+}, {
+    "ID": "#245",
+    "Chinese": "水君",
+    "Japanese": "スイクン",
+    "English": "Suicune"
+}, {
+    "ID": "#246",
+    "Chinese": "幼基拉斯",
+    "Japanese": "ヨーギラス",
+    "English": "Larvitar"
+}, {
+    "ID": "#247",
+    "Chinese": "沙基拉斯",
+    "Japanese": "サナギラス",
+    "English": "Pupitar"
+}, {
+    "ID": "#248",
+    "Chinese": "班基拉斯",
+    "Japanese": "バンギラス",
+    "English": "Tyranitar"
+}, {
+    "ID": "#249",
+    "Chinese": "洛奇亚",
+    "Japanese": "ルギア",
+    "English": "Lugia"
+}, {
+    "ID": "#250",
+    "Chinese": "凤王",
+    "Japanese": "ホウオウ",
+    "English": "Ho-Oh"
+}, {
+    "ID": "#251",
+    "Chinese": "时拉比",
+    "Japanese": "セレビィ",
+    "English": "Celebi"
+}, {
+    "ID": "第三世代"
+}, {
+    "ID": "#252",
+    "Chinese": "木守宫",
+    "Japanese": "キモリ",
+    "English": "Treecko"
+}, {
+    "ID": "#253",
+    "Chinese": "森林蜥蜴",
+    "Japanese": "ジュプトル",
+    "English": "Grovyle"
+}, {
+    "ID": "#254",
+    "Chinese": "蜥蜴王",
+    "Japanese": "ジュカイン",
+    "English": "Sceptile"
+}, {
+    "ID": "#255",
+    "Chinese": "火稚鸡",
+    "Japanese": "アチャモ",
+    "English": "Torchic"
+}, {
+    "ID": "#256",
+    "Chinese": "力壮鸡",
+    "Japanese": "ワカシャモ",
+    "English": "Combusken"
+}, {
+    "ID": "#257",
+    "Chinese": "火焰鸡",
+    "Japanese": "バシャーモ",
+    "English": "Blaziken"
+}, {
+    "ID": "#258",
+    "Chinese": "水跃鱼",
+    "Japanese": "ミズゴロウ",
+    "English": "Mudkip"
+}, {
+    "ID": "#259",
+    "Chinese": "沼跃鱼",
+    "Japanese": "ヌマクロー",
+    "English": "Marshtomp"
+}, {
+    "ID": "#260",
+    "Chinese": "巨沼怪",
+    "Japanese": "ラグラージ",
+    "English": "Swampert"
+}, {
+    "ID": "#261",
+    "Chinese": "土狼犬",
+    "Japanese": "ポチエナ",
+    "English": "Poochyena"
+}, {
+    "ID": "#262",
+    "Chinese": "大狼犬",
+    "Japanese": "グラエナ",
+    "English": "Mightyena"
+}, {
+    "ID": "#263",
+    "Chinese": "蛇纹熊",
+    "Japanese": "ジグザグマ",
+    "English": "Zigzagoon"
+}, {
+    "ID": "#264",
+    "Chinese": "直冲熊",
+    "Japanese": "マッスグマ",
+    "English": "Linoone"
+}, {
+    "ID": "#265",
+    "Chinese": "刺尾虫",
+    "Japanese": "ケムッソ",
+    "English": "Wurmple"
+}, {
+    "ID": "#266",
+    "Chinese": "甲壳茧",
+    "Japanese": "カラサリス",
+    "English": "Silcoon"
+}, {
+    "ID": "#267",
+    "Chinese": "狩猎凤蝶",
+    "Japanese": "アゲハント",
+    "English": "Beautifly"
+}, {
+    "ID": "#268",
+    "Chinese": "盾甲茧",
+    "Japanese": "マユルド",
+    "English": "Cascoon"
+}, {
+    "ID": "#269",
+    "Chinese": "毒粉蛾",
+    "Japanese": "ドクケイル",
+    "English": "Dustox"
+}, {
+    "ID": "#270",
+    "Chinese": "莲叶童子",
+    "Japanese": "ハスボー",
+    "English": "Lotad"
+}, {
+    "ID": "#271",
+    "Chinese": "莲帽小童",
+    "Japanese": "ハスブレロ",
+    "English": "Lombre"
+}, {
+    "ID": "#272",
+    "Chinese": "乐天河童",
+    "Japanese": "ルンパッパ",
+    "English": "Ludicolo"
+}, {
+    "ID": "#273",
+    "Chinese": "橡实果",
+    "Japanese": "タネボー",
+    "English": "Seedot"
+}, {
+    "ID": "#274",
+    "Chinese": "长鼻叶",
+    "Japanese": "コノハナ",
+    "English": "Nuzleaf"
+}, {
+    "ID": "#275",
+    "Chinese": "狡猾天狗",
+    "Japanese": "ダーテング",
+    "English": "Shiftry"
+}, {
+    "ID": "#276",
+    "Chinese": "傲骨燕",
+    "Japanese": "スバメ",
+    "English": "Taillow"
+}, {
+    "ID": "#277",
+    "Chinese": "大王燕",
+    "Japanese": "オオスバメ",
+    "English": "Swellow"
+}, {
+    "ID": "#278",
+    "Chinese": "长翅鸥",
+    "Japanese": "キャモメ",
+    "English": "Wingull"
+}, {
+    "ID": "#279",
+    "Chinese": "大嘴鸥",
+    "Japanese": "ペリッパー",
+    "English": "Pelipper"
+}, {
+    "ID": "#280",
+    "Chinese": "拉鲁拉丝",
+    "Japanese": "ラルトス",
+    "English": "Ralts"
+}, {
+    "ID": "#281",
+    "Chinese": "奇鲁莉安",
+    "Japanese": "キルリア",
+    "English": "Kirlia"
+}, {
+    "ID": "#282",
+    "Chinese": "沙奈朵",
+    "Japanese": "サーナイト",
+    "English": "Gardevoir"
+}, {
+    "ID": "#283",
+    "Chinese": "溜溜糖球",
+    "Japanese": "アメタマ",
+    "English": "Surskit"
+}, {
+    "ID": "#284",
+    "Chinese": "雨翅蛾",
+    "Japanese": "アメモース",
+    "English": "Masquerain"
+}, {
+    "ID": "#285",
+    "Chinese": "蘑蘑菇",
+    "Japanese": "キノココ",
+    "English": "Shroomish"
+}, {
+    "ID": "#286",
+    "Chinese": "斗笠菇",
+    "Japanese": "キノガッサ",
+    "English": "Breloom"
+}, {
+    "ID": "#287",
+    "Chinese": "懒人獭",
+    "Japanese": "ナマケロ",
+    "English": "Slakoth"
+}, {
+    "ID": "#288",
+    "Chinese": "过动猿",
+    "Japanese": "ヤルキモノ",
+    "English": "Vigoroth"
+}, {
+    "ID": "#289",
+    "Chinese": "请假王",
+    "Japanese": "ケッキング",
+    "English": "Slaking"
+}, {
+    "ID": "#290",
+    "Chinese": "土居忍士",
+    "Japanese": "ツチニン",
+    "English": "Nincada"
+}, {
+    "ID": "#291",
+    "Chinese": "铁面忍者",
+    "Japanese": "テッカニン",
+    "English": "Ninjask"
+}, {
+    "ID": "#292",
+    "Chinese": "脱壳忍者",
+    "Japanese": "ヌケニン",
+    "English": "Shedinja"
+}, {
+    "ID": "#293",
+    "Chinese": "咕妞妞",
+    "Japanese": "ゴニョニョ",
+    "English": "Whismur"
+}, {
+    "ID": "#294",
+    "Chinese": "吼爆弹",
+    "Japanese": "ドゴーム",
+    "English": "Loudred"
+}, {
+    "ID": "#295",
+    "Chinese": "爆音怪",
+    "Japanese": "バクオング",
+    "English": "Exploud"
+}, {
+    "ID": "#296",
+    "Chinese": "幕下力士",
+    "Japanese": "マクノシタ",
+    "English": "Makuhita"
+}, {
+    "ID": "#297",
+    "Chinese": "铁掌力士",
+    "Japanese": "ハリテヤマ",
+    "English": "Hariyama"
+}, {
+    "ID": "#298",
+    "Chinese": "露力丽",
+    "Japanese": "ルリリ",
+    "English": "Azurill"
+}, {
+    "ID": "#299",
+    "Chinese": "朝北鼻",
+    "Japanese": "ノズパス",
+    "English": "Nosepass"
+}, {
+    "ID": "#300",
+    "Chinese": "向尾喵",
+    "Japanese": "エネコ",
+    "English": "Skitty"
+}, {
+    "ID": "#301",
+    "Chinese": "优雅猫",
+    "Japanese": "エネコロロ",
+    "English": "Delcatty"
+}, {
+    "ID": "#302",
+    "Chinese": "勾魂眼",
+    "Japanese": "ヤミラミ",
+    "English": "Sableye"
+}, {
+    "ID": "#303",
+    "Chinese": "大嘴娃",
+    "Japanese": "クチート",
+    "English": "Mawile"
+}, {
+    "ID": "#304",
+    "Chinese": "可可多拉",
+    "Japanese": "ココドラ",
+    "English": "Aron"
+}, {
+    "ID": "#305",
+    "Chinese": "可多拉",
+    "Japanese": "コドラ",
+    "English": "Lairon"
+}, {
+    "ID": "#306",
+    "Chinese": "波士可多拉",
+    "Japanese": "ボスゴドラ",
+    "English": "Aggron"
+}, {
+    "ID": "#307",
+    "Chinese": "玛沙那",
+    "Japanese": "アサナン",
+    "English": "Meditite"
+}, {
+    "ID": "#308",
+    "Chinese": "恰雷姆",
+    "Japanese": "チャーレム",
+    "English": "Medicham"
+}, {
+    "ID": "#309",
+    "Chinese": "落雷兽",
+    "Japanese": "ラクライ",
+    "English": "Electrike"
+}, {
+    "ID": "#310",
+    "Chinese": "雷电兽",
+    "Japanese": "ライボルト",
+    "English": "Manectric"
+}, {
+    "ID": "#311",
+    "Chinese": "正电拍拍",
+    "Japanese": "プラスル",
+    "English": "Plusle"
+}, {
+    "ID": "#312",
+    "Chinese": "负电拍拍",
+    "Japanese": "マイナン",
+    "English": "Minun"
+}, {
+    "ID": "#313",
+    "Chinese": "电萤虫",
+    "Japanese": "バルビート",
+    "English": "Volbeat"
+}, {
+    "ID": "#314",
+    "Chinese": "甜甜萤",
+    "Japanese": "イルミーゼ",
+    "English": "Illumise"
+}, {
+    "ID": "#315",
+    "Chinese": "毒蔷薇",
+    "Japanese": "ロゼリア",
+    "English": "Roselia"
+}, {
+    "ID": "#316",
+    "Chinese": "溶食兽",
+    "Japanese": "ゴクリン",
+    "English": "Gulpin"
+}, {
+    "ID": "#317",
+    "Chinese": "吞食兽",
+    "Japanese": "マルノーム",
+    "English": "Swalot"
+}, {
+    "ID": "#318",
+    "Chinese": "利牙鱼",
+    "Japanese": "キバニア",
+    "English": "Carvanha"
+}, {
+    "ID": "#319",
+    "Chinese": "巨牙鲨",
+    "Japanese": "サメハダー",
+    "English": "Sharpedo"
+}, {
+    "ID": "#320",
+    "Chinese": "吼吼鲸",
+    "Japanese": "ホエルコ",
+    "English": "Wailmer"
+}, {
+    "ID": "#321",
+    "Chinese": "吼鲸王",
+    "Japanese": "ホエルオー",
+    "English": "Wailord"
+}, {
+    "ID": "#322",
+    "Chinese": "呆火驼",
+    "Japanese": "ドンメル",
+    "English": "Numel"
+}, {
+    "ID": "#323",
+    "Chinese": "喷火驼",
+    "Japanese": "バクーダ",
+    "English": "Camerupt"
+}, {
+    "ID": "#324",
+    "Chinese": "煤炭龟",
+    "Japanese": "コータス",
+    "English": "Torkoal"
+}, {
+    "ID": "#325",
+    "Chinese": "跳跳猪",
+    "Japanese": "バネブー",
+    "English": "Spoink"
+}, {
+    "ID": "#326",
+    "Chinese": "噗噗猪",
+    "Japanese": "ブーピッグ",
+    "English": "Grumpig"
+}, {
+    "ID": "#327",
+    "Chinese": "晃晃斑",
+    "Japanese": "パッチール",
+    "English": "Spinda"
+}, {
+    "ID": "#328",
+    "Chinese": "大颚蚁",
+    "Japanese": "ナックラー",
+    "English": "Trapinch"
+}, {
+    "ID": "#329",
+    "Chinese": "超音波幼虫",
+    "Japanese": "ビブラーバ",
+    "English": "Vibrava"
+}, {
+    "ID": "#330",
+    "Chinese": "沙漠蜻蜓",
+    "Japanese": "フライゴン",
+    "English": "Flygon"
+}, {
+    "ID": "#331",
+    "Chinese": "刺球仙人掌",
+    "Japanese": "サボネア",
+    "English": "Cacnea"
+}, {
+    "ID": "#332",
+    "Chinese": "梦歌仙人掌",
+    "Japanese": "ノクタス",
+    "English": "Cacturne"
+}, {
+    "ID": "#333",
+    "Chinese": "青绵鸟",
+    "Japanese": "チルット",
+    "English": "Swablu"
+}, {
+    "ID": "#334",
+    "Chinese": "七夕青鸟",
+    "Japanese": "チルタリス",
+    "English": "Altaria"
+}, {
+    "ID": "#335",
+    "Chinese": "猫鼬斩",
+    "Japanese": "ザングース",
+    "English": "Zangoose"
+}, {
+    "ID": "#336",
+    "Chinese": "饭匙蛇",
+    "Japanese": "ハブネーク",
+    "English": "Seviper"
+}, {
+    "ID": "#337",
+    "Chinese": "月石",
+    "Japanese": "ルナトーン",
+    "English": "Lunatone"
+}, {
+    "ID": "#338",
+    "Chinese": "太阳岩",
+    "Japanese": "ソルロック",
+    "English": "Solrock"
+}, {
+    "ID": "#339",
+    "Chinese": "泥泥鳅",
+    "Japanese": "ドジョッチ",
+    "English": "Barboach"
+}, {
+    "ID": "#340",
+    "Chinese": "鲶鱼王",
+    "Japanese": "ナマズン",
+    "English": "Whiscash"
+}, {
+    "ID": "#341",
+    "Chinese": "龙虾小兵",
+    "Japanese": "ヘイガニ",
+    "English": "Corphish"
+}, {
+    "ID": "#342",
+    "Chinese": "铁螯龙虾",
+    "Japanese": "シザリガー",
+    "English": "Crawdaunt"
+}, {
+    "ID": "#343",
+    "Chinese": "天秤偶",
+    "Japanese": "ヤジロン",
+    "English": "Baltoy"
+}, {
+    "ID": "#344",
+    "Chinese": "念力土偶",
+    "Japanese": "ネンドール",
+    "English": "Claydol"
+}, {
+    "ID": "#345",
+    "Chinese": "触手百合",
+    "Japanese": "リリーラ",
+    "English": "Lileep"
+}, {
+    "ID": "#346",
+    "Chinese": "摇篮百合",
+    "Japanese": "ユレイドル",
+    "English": "Cradily"
+}, {
+    "ID": "#347",
+    "Chinese": "太古羽虫",
+    "Japanese": "アノプス",
+    "English": "Anorith"
+}, {
+    "ID": "#348",
+    "Chinese": "太古盔甲",
+    "Japanese": "アーマルド",
+    "English": "Armaldo"
+}, {
+    "ID": "#349",
+    "Chinese": "丑丑鱼",
+    "Japanese": "ヒンバス",
+    "English": "Feebas"
+}, {
+    "ID": "#350",
+    "Chinese": "美纳斯",
+    "Japanese": "ミロカロス",
+    "English": "Milotic"
+}, {
+    "ID": "#351",
+    "Chinese": "飘浮泡泡",
+    "Japanese": "ポワルン",
+    "English": "Castform"
+}, {
+    "ID": "#352",
+    "Chinese": "变隐龙",
+    "Japanese": "カクレオン",
+    "English": "Kecleon"
+}, {
+    "ID": "#353",
+    "Chinese": "怨影娃娃",
+    "Japanese": "カゲボウズ",
+    "English": "Shuppet"
+}, {
+    "ID": "#354",
+    "Chinese": "诅咒娃娃",
+    "Japanese": "ジュペッタ",
+    "English": "Banette"
+}, {
+    "ID": "#355",
+    "Chinese": "夜巡灵",
+    "Japanese": "ヨマワル",
+    "English": "Duskull"
+}, {
+    "ID": "#356",
+    "Chinese": "彷徨夜灵",
+    "Japanese": "サマヨール",
+    "English": "Dusclops"
+}, {
+    "ID": "#357",
+    "Chinese": "热带龙",
+    "Japanese": "トロピウス",
+    "English": "Tropius"
+}, {
+    "ID": "#358",
+    "Chinese": "风铃铃",
+    "Japanese": "チリーン",
+    "English": "Chimecho"
+}, {
+    "ID": "#359",
+    "Chinese": "阿勃梭鲁",
+    "Japanese": "アブソル",
+    "English": "Absol"
+}, {
+    "ID": "#360",
+    "Chinese": "小果然",
+    "Japanese": "ソーナノ",
+    "English": "Wynaut"
+}, {
+    "ID": "#361",
+    "Chinese": "雪童子",
+    "Japanese": "ユキワラシ",
+    "English": "Snorunt"
+}, {
+    "ID": "#362",
+    "Chinese": "冰鬼护",
+    "Japanese": "オニゴーリ",
+    "English": "Glalie"
+}, {
+    "ID": "#363",
+    "Chinese": "海豹球",
+    "Japanese": "タマザラシ",
+    "English": "Spheal"
+}, {
+    "ID": "#364",
+    "Chinese": "海魔狮",
+    "Japanese": "トドグラー",
+    "English": "Sealeo"
+}, {
+    "ID": "#365",
+    "Chinese": "帝牙海狮",
+    "Japanese": "トドゼルガ",
+    "English": "Walrein"
+}, {
+    "ID": "#366",
+    "Chinese": "珍珠贝",
+    "Japanese": "パールル",
+    "English": "Clamperl"
+}, {
+    "ID": "#367",
+    "Chinese": "猎斑鱼",
+    "Japanese": "ハンテール",
+    "English": "Huntail"
+}, {
+    "ID": "#368",
+    "Chinese": "樱花鱼",
+    "Japanese": "サクラビス",
+    "English": "Gorebyss"
+}, {
+    "ID": "#369",
+    "Chinese": "古空棘鱼",
+    "Japanese": "ジーランス",
+    "English": "Relicanth"
+}, {
+    "ID": "#370",
+    "Chinese": "爱心鱼",
+    "Japanese": "ラブカス",
+    "English": "Luvdisc"
+}, {
+    "ID": "#371",
+    "Chinese": "宝贝龙",
+    "Japanese": "タツベイ",
+    "English": "Bagon"
+}, {
+    "ID": "#372",
+    "Chinese": "甲壳龙",
+    "Japanese": "コモルー",
+    "English": "Shelgon"
+}, {
+    "ID": "#373",
+    "Chinese": "暴飞龙",
+    "Japanese": "ボーマンダ",
+    "English": "Salamence"
+}, {
+    "ID": "#374",
+    "Chinese": "铁哑铃",
+    "Japanese": "ダンバル",
+    "English": "Beldum"
+}, {
+    "ID": "#375",
+    "Chinese": "金属怪",
+    "Japanese": "メタング",
+    "English": "Metang"
+}, {
+    "ID": "#376",
+    "Chinese": "巨金怪",
+    "Japanese": "メタグロス",
+    "English": "Metagross"
+}, {
+    "ID": "#377",
+    "Chinese": "雷吉洛克",
+    "Japanese": "レジロック",
+    "English": "Regirock"
+}, {
+    "ID": "#378",
+    "Chinese": "雷吉艾斯",
+    "Japanese": "レジアイス",
+    "English": "Regice"
+}, {
+    "ID": "#379",
+    "Chinese": "雷吉斯奇鲁",
+    "Japanese": "レジスチル",
+    "English": "Registeel"
+}, {
+    "ID": "#380",
+    "Chinese": "拉帝亚斯",
+    "Japanese": "ラティアス",
+    "English": "Latias"
+}, {
+    "ID": "#381",
+    "Chinese": "拉帝欧斯",
+    "Japanese": "ラティオス",
+    "English": "Latios"
+}, {
+    "ID": "#382",
+    "Chinese": "盖欧卡",
+    "Japanese": "カイオーガ",
+    "English": "Kyogre"
+}, {
+    "ID": "#383",
+    "Chinese": "固拉多",
+    "Japanese": "グラードン",
+    "English": "Groudon"
+}, {
+    "ID": "#384",
+    "Chinese": "烈空坐",
+    "Japanese": "レックウザ",
+    "English": "Rayquaza"
+}, {
+    "ID": "#385",
+    "Chinese": "基拉祈",
+    "Japanese": "ジラーチ",
+    "English": "Jirachi"
+}, {
+    "ID": "#386",
+    "Chinese": "代欧奇希斯",
+    "Japanese": "デオキシス",
+    "English": "Deoxys"
+}, {
+    "ID": "第四世代"
+}, {
+    "ID": "#387",
+    "Chinese": "草苗龟",
+    "Japanese": "ナエトル",
+    "English": "Turtwig"
+}, {
+    "ID": "#388",
+    "Chinese": "树林龟",
+    "Japanese": "ハヤシガメ",
+    "English": "Grotle"
+}, {
+    "ID": "#389",
+    "Chinese": "土台龟",
+    "Japanese": "ドダイトス",
+    "English": "Torterra"
+}, {
+    "ID": "#390",
+    "Chinese": "小火焰猴",
+    "Japanese": "ヒコザル",
+    "English": "Chimchar"
+}, {
+    "ID": "#391",
+    "Chinese": "猛火猴",
+    "Japanese": "モウカザル",
+    "English": "Monferno"
+}, {
+    "ID": "#392",
+    "Chinese": "烈焰猴",
+    "Japanese": "ゴウカザル",
+    "English": "Infernape"
+}, {
+    "ID": "#393",
+    "Chinese": "波加曼",
+    "Japanese": "ポッチャマ",
+    "English": "Piplup"
+}, {
+    "ID": "#394",
+    "Chinese": "波皇子",
+    "Japanese": "ポッタイシ",
+    "English": "Prinplup"
+}, {
+    "ID": "#395",
+    "Chinese": "帝王拿波",
+    "Japanese": "エンペルト",
+    "English": "Empoleon"
+}, {
+    "ID": "#396",
+    "Chinese": "姆克儿",
+    "Japanese": "ムックル",
+    "English": "Starly"
+}, {
+    "ID": "#397",
+    "Chinese": "姆克鸟",
+    "Japanese": "ムクバード",
+    "English": "Staravia"
+}, {
+    "ID": "#398",
+    "Chinese": "姆克鹰",
+    "Japanese": "ムクホーク",
+    "English": "Staraptor"
+}, {
+    "ID": "#399",
+    "Chinese": "大牙狸",
+    "Japanese": "ビッパ",
+    "English": "Bidoof"
+}, {
+    "ID": "#400",
+    "Chinese": "大尾狸",
+    "Japanese": "ビーダル",
+    "English": "Bibarel"
+}, {
+    "ID": "#401",
+    "Chinese": "圆法师",
+    "Japanese": "コロボーシ",
+    "English": "Kricketot"
+}, {
+    "ID": "#402",
+    "Chinese": "音箱蟀",
+    "Japanese": "コロトック",
+    "English": "Kricketune"
+}, {
+    "ID": "#403",
+    "Chinese": "小猫怪",
+    "Japanese": "コリンク",
+    "English": "Shinx"
+}, {
+    "ID": "#404",
+    "Chinese": "勒克猫",
+    "Japanese": "ルクシオ",
+    "English": "Luxio"
+}, {
+    "ID": "#405",
+    "Chinese": "伦琴猫",
+    "Japanese": "レントラー",
+    "English": "Luxray"
+}, {
+    "ID": "#406",
+    "Chinese": "含羞苞",
+    "Japanese": "スボミー",
+    "English": "Budew"
+}, {
+    "ID": "#407",
+    "Chinese": "罗丝雷朵",
+    "Japanese": "ロズレイド",
+    "English": "Roserade"
+}, {
+    "ID": "#408",
+    "Chinese": "头盖龙",
+    "Japanese": "ズガイドス",
+    "English": "Cranidos"
+}, {
+    "ID": "#409",
+    "Chinese": "战槌龙",
+    "Japanese": "ラムパルド",
+    "English": "Rampardos"
+}, {
+    "ID": "#410",
+    "Chinese": "盾甲龙",
+    "Japanese": "タテトプス",
+    "English": "Shieldon"
+}, {
+    "ID": "#411",
+    "Chinese": "护城龙",
+    "Japanese": "トリデプス",
+    "English": "Bastiodon"
+}, {
+    "ID": "#412",
+    "Chinese": "结草儿",
+    "Japanese": "ミノムッチ",
+    "English": "Burmy"
+}, {
+    "ID": "#413",
+    "Chinese": "结草贵妇",
+    "Japanese": "ミノマダム",
+    "English": "Wormadam"
+}, {
+    "ID": "#414",
+    "Chinese": "绅士蛾",
+    "Japanese": "ガーメイル",
+    "English": "Mothim"
+}, {
+    "ID": "#415",
+    "Chinese": "三蜜蜂",
+    "Japanese": "ミツハニー",
+    "English": "Combee"
+}, {
+    "ID": "#416",
+    "Chinese": "蜂女王",
+    "Japanese": "ビークイン",
+    "English": "Vespiquen"
+}, {
+    "ID": "#417",
+    "Chinese": "帕奇利兹",
+    "Japanese": "パチリス",
+    "English": "Pachirisu"
+}, {
+    "ID": "#418",
+    "Chinese": "泳圈鼬",
+    "Japanese": "ブイゼル",
+    "English": "Buizel"
+}, {
+    "ID": "#419",
+    "Chinese": "浮潜鼬",
+    "Japanese": "フローゼル",
+    "English": "Floatzel"
+}, {
+    "ID": "#420",
+    "Chinese": "樱花宝",
+    "Japanese": "チェリンボ",
+    "English": "Cherubi"
+}, {
+    "ID": "#421",
+    "Chinese": "樱花儿",
+    "Japanese": "チェリム",
+    "English": "Cherrim"
+}, {
+    "ID": "#422",
+    "Chinese": "无壳海兔",
+    "Japanese": "カラナクシ",
+    "English": "Shellos"
+}, {
+    "ID": "#423",
+    "Chinese": "海兔兽",
+    "Japanese": "トリトドン",
+    "English": "Gastrodon"
+}, {
+    "ID": "#424",
+    "Chinese": "双尾怪手",
+    "Japanese": "エテボース",
+    "English": "Ambipom"
+}, {
+    "ID": "#425",
+    "Chinese": "飘飘球",
+    "Japanese": "フワンテ",
+    "English": "Drifloon"
+}, {
+    "ID": "#426",
+    "Chinese": "随风球",
+    "Japanese": "フワライド",
+    "English": "Drifblim"
+}, {
+    "ID": "#427",
+    "Chinese": "卷卷耳",
+    "Japanese": "ミミロル",
+    "English": "Buneary"
+}, {
+    "ID": "#428",
+    "Chinese": "长耳兔",
+    "Japanese": "ミミロップ",
+    "English": "Lopunny"
+}, {
+    "ID": "#429",
+    "Chinese": "梦妖魔",
+    "Japanese": "ムウマージ",
+    "English": "Mismagius"
+}, {
+    "ID": "#430",
+    "Chinese": "乌鸦头头",
+    "Japanese": "ドンカラス",
+    "English": "Honchkrow"
+}, {
+    "ID": "#431",
+    "Chinese": "魅力喵",
+    "Japanese": "ニャルマー",
+    "English": "Glameow"
+}, {
+    "ID": "#432",
+    "Chinese": "东施喵",
+    "Japanese": "ブニャット",
+    "English": "Purugly"
+}, {
+    "ID": "#433",
+    "Chinese": "铃铛响",
+    "Japanese": "リーシャン",
+    "English": "Chingling"
+}, {
+    "ID": "#434",
+    "Chinese": "臭鼬噗",
+    "Japanese": "スカンプー",
+    "English": "Stunky"
+}, {
+    "ID": "#435",
+    "Chinese": "坦克臭鼬",
+    "Japanese": "スカタンク",
+    "English": "Skuntank"
+}, {
+    "ID": "#436",
+    "Chinese": "铜镜怪",
+    "Japanese": "ドーミラー",
+    "English": "Bronzor"
+}, {
+    "ID": "#437",
+    "Chinese": "青铜钟",
+    "Japanese": "ドータクン",
+    "English": "Bronzong"
+}, {
+    "ID": "#438",
+    "Chinese": "盆才怪",
+    "Japanese": "ウソハチ",
+    "English": "Bonsly"
+}, {
+    "ID": "#439",
+    "Chinese": "魔尼尼",
+    "Japanese": "マネネ",
+    "English": "Mime Jr."
+}, {
+    "ID": "#440",
+    "Chinese": "小福蛋",
+    "Japanese": "ピンプク",
+    "English": "Happiny"
+}, {
+    "ID": "#441",
+    "Chinese": "聒噪鸟",
+    "Japanese": "ペラップ",
+    "English": "Chatot"
+}, {
+    "ID": "#442",
+    "Chinese": "花岩怪",
+    "Japanese": "ミカルゲ",
+    "English": "Spiritomb"
+}, {
+    "ID": "#443",
+    "Chinese": "圆陆鲨",
+    "Japanese": "フカマル",
+    "English": "Gible"
+}, {
+    "ID": "#444",
+    "Chinese": "尖牙陆鲨",
+    "Japanese": "ガバイト",
+    "English": "Gabite"
+}, {
+    "ID": "#445",
+    "Chinese": "烈咬陆鲨",
+    "Japanese": "ガブリアス",
+    "English": "Garchomp"
+}, {
+    "ID": "#446",
+    "Chinese": "小卡比兽",
+    "Japanese": "ゴンベ",
+    "English": "Munchlax"
+}, {
+    "ID": "#447",
+    "Chinese": "利欧路",
+    "Japanese": "リオル",
+    "English": "Riolu"
+}, {
+    "ID": "#448",
+    "Chinese": "路卡利欧",
+    "Japanese": "ルカリオ",
+    "English": "Lucario"
+}, {
+    "ID": "#449",
+    "Chinese": "沙河马",
+    "Japanese": "ヒポポタス",
+    "English": "Hippopotas"
+}, {
+    "ID": "#450",
+    "Chinese": "河马兽",
+    "Japanese": "カバルドン",
+    "English": "Hippowdon"
+}, {
+    "ID": "#451",
+    "Chinese": "钳尾蝎",
+    "Japanese": "スコルピ",
+    "English": "Skorupi"
+}, {
+    "ID": "#452",
+    "Chinese": "龙王蝎",
+    "Japanese": "ドラピオン",
+    "English": "Drapion"
+}, {
+    "ID": "#453",
+    "Chinese": "不良蛙",
+    "Japanese": "グレッグル",
+    "English": "Croagunk"
+}, {
+    "ID": "#454",
+    "Chinese": "毒骷蛙",
+    "Japanese": "ドクロッグ",
+    "English": "Toxicroak"
+}, {
+    "ID": "#455",
+    "Chinese": "尖牙笼",
+    "Japanese": "マスキッパ",
+    "English": "Carnivine"
+}, {
+    "ID": "#456",
+    "Chinese": "荧光鱼",
+    "Japanese": "ケイコウオ",
+    "English": "Finneon"
+}, {
+    "ID": "#457",
+    "Chinese": "霓虹鱼",
+    "Japanese": "ネオラント",
+    "English": "Lumineon"
+}, {
+    "ID": "#458",
+    "Chinese": "小球飞鱼",
+    "Japanese": "タマンタ",
+    "English": "Mantyke"
+}, {
+    "ID": "#459",
+    "Chinese": "雪笠怪",
+    "Japanese": "ユキカブリ",
+    "English": "Snover"
+}, {
+    "ID": "#460",
+    "Chinese": "暴雪王",
+    "Japanese": "ユキノオー",
+    "English": "Abomasnow"
+}, {
+    "ID": "#461",
+    "Chinese": "玛狃拉",
+    "Japanese": "マニューラ",
+    "English": "Weavile"
+}, {
+    "ID": "#462",
+    "Chinese": "自爆磁怪",
+    "Japanese": "ジバコイル",
+    "English": "Magnezone"
+}, {
+    "ID": "#463",
+    "Chinese": "大舌舔",
+    "Japanese": "ベロベルト",
+    "English": "Lickilicky"
+}, {
+    "ID": "#464",
+    "Chinese": "超甲狂犀",
+    "Japanese": "ドサイドン",
+    "English": "Rhyperior"
+}, {
+    "ID": "#465",
+    "Chinese": "巨蔓藤",
+    "Japanese": "モジャンボ",
+    "English": "Tangrowth"
+}, {
+    "ID": "#466",
+    "Chinese": "电击魔兽",
+    "Japanese": "エレキブル",
+    "English": "Electivire"
+}, {
+    "ID": "#467",
+    "Chinese": "鸭嘴炎兽",
+    "Japanese": "ブーバーン",
+    "English": "Magmortar"
+}, {
+    "ID": "#468",
+    "Chinese": "波克基斯",
+    "Japanese": "トゲキッス",
+    "English": "Togekiss"
+}, {
+    "ID": "#469",
+    "Chinese": "远古巨蜓",
+    "Japanese": "メガヤンマ",
+    "English": "Yanmega"
+}, {
+    "ID": "#470",
+    "Chinese": "叶伊布",
+    "Japanese": "リーフィア",
+    "English": "Leafeon"
+}, {
+    "ID": "#471",
+    "Chinese": "冰伊布",
+    "Japanese": "グレイシア",
+    "English": "Glaceon"
+}, {
+    "ID": "#472",
+    "Chinese": "天蝎王",
+    "Japanese": "グライオン",
+    "English": "Gliscor"
+}, {
+    "ID": "#473",
+    "Chinese": "象牙猪",
+    "Japanese": "マンムー",
+    "English": "Mamoswine"
+}, {
+    "ID": "#474",
+    "Chinese": "多边兽Ｚ",
+    "Japanese": "ポリゴンＺ",
+    "English": "Porygon-Z"
+}, {
+    "ID": "#475",
+    "Chinese": "艾路雷朵",
+    "Japanese": "エルレイド",
+    "English": "Gallade"
+}, {
+    "ID": "#476",
+    "Chinese": "大朝北鼻",
+    "Japanese": "ダイノーズ",
+    "English": "Probopass"
+}, {
+    "ID": "#477",
+    "Chinese": "黑夜魔灵",
+    "Japanese": "ヨノワール",
+    "English": "Dusknoir"
+}, {
+    "ID": "#478",
+    "Chinese": "雪妖女",
+    "Japanese": "ユキメノコ",
+    "English": "Froslass"
+}, {
+    "ID": "#479",
+    "Chinese": "洛托姆",
+    "Japanese": "ロトム",
+    "English": "Rotom"
+}, {
+    "ID": "#480",
+    "Chinese": "由克希",
+    "Japanese": "ユクシー",
+    "English": "Uxie"
+}, {
+    "ID": "#481",
+    "Chinese": "艾姆利多",
+    "Japanese": "エムリット",
+    "English": "Mesprit"
+}, {
+    "ID": "#482",
+    "Chinese": "亚克诺姆",
+    "Japanese": "アグノム",
+    "English": "Azelf"
+}, {
+    "ID": "#483",
+    "Chinese": "帝牙卢卡",
+    "Japanese": "ディアルガ",
+    "English": "Dialga"
+}, {
+    "ID": "#484",
+    "Chinese": "帕路奇亚",
+    "Japanese": "パルキア",
+    "English": "Palkia"
+}, {
+    "ID": "#485",
+    "Chinese": "席多蓝恩",
+    "Japanese": "ヒードラン",
+    "English": "Heatran"
+}, {
+    "ID": "#486",
+    "Chinese": "雷吉奇卡斯",
+    "Japanese": "レジギガス",
+    "English": "Regigigas"
+}, {
+    "ID": "#487",
+    "Chinese": "骑拉帝纳",
+    "Japanese": "ギラティナ",
+    "English": "Giratina"
+}, {
+    "ID": "#488",
+    "Chinese": "克雷色利亚",
+    "Japanese": "クレセリア",
+    "English": "Cresselia"
+}, {
+    "ID": "#489",
+    "Chinese": "霏欧纳",
+    "Japanese": "フィオネ",
+    "English": "Phione"
+}, {
+    "ID": "#490",
+    "Chinese": "玛纳霏",
+    "Japanese": "マナフィ",
+    "English": "Manaphy"
+}, {
+    "ID": "#491",
+    "Chinese": "达克莱伊",
+    "Japanese": "ダークライ",
+    "English": "Darkrai"
+}, {
+    "ID": "#492",
+    "Chinese": "谢米",
+    "Japanese": "シェイミ",
+    "English": "Shaymin"
+}, {
+    "ID": "#493",
+    "Chinese": "阿尔宙斯",
+    "Japanese": "アルセウス",
+    "English": "Arceus"
+}, {
+    "ID": "第五世代"
+}, {
+    "ID": "#494",
+    "Chinese": "比克提尼",
+    "Japanese": "ビクティニ",
+    "English": "Victini"
+}, {
+    "ID": "#495",
+    "Chinese": "藤藤蛇",
+    "Japanese": "ツタージャ",
+    "English": "Snivy"
+}, {
+    "ID": "#496",
+    "Chinese": "青藤蛇",
+    "Japanese": "ジャノビー",
+    "English": "Servine"
+}, {
+    "ID": "#497",
+    "Chinese": "君主蛇",
+    "Japanese": "ジャローダ",
+    "English": "Serperior"
+}, {
+    "ID": "#498",
+    "Chinese": "暖暖猪",
+    "Japanese": "ポカブ",
+    "English": "Tepig"
+}, {
+    "ID": "#499",
+    "Chinese": "炒炒猪",
+    "Japanese": "チャオブー",
+    "English": "Pignite"
+}, {
+    "ID": "#500",
+    "Chinese": "炎武王",
+    "Japanese": "エンブオー",
+    "English": "Emboar"
+}, {
+    "ID": "#501",
+    "Chinese": "水水獭",
+    "Japanese": "ミジュマル",
+    "English": "Oshawott"
+}, {
+    "ID": "#502",
+    "Chinese": "双刃丸",
+    "Japanese": "フタチマル",
+    "English": "Dewott"
+}, {
+    "ID": "#503",
+    "Chinese": "大剑鬼",
+    "Japanese": "ダイケンキ",
+    "English": "Samurott"
+}, {
+    "ID": "#504",
+    "Chinese": "探探鼠",
+    "Japanese": "ミネズミ",
+    "English": "Patrat"
+}, {
+    "ID": "#505",
+    "Chinese": "步哨鼠",
+    "Japanese": "ミルホッグ",
+    "English": "Watchog"
+}, {
+    "ID": "#506",
+    "Chinese": "小约克",
+    "Japanese": "ヨーテリー",
+    "English": "Lillipup"
+}, {
+    "ID": "#507",
+    "Chinese": "哈约克",
+    "Japanese": "ハーデリア",
+    "English": "Herdier"
+}, {
+    "ID": "#508",
+    "Chinese": "长毛狗",
+    "Japanese": "ムーランド",
+    "English": "Stoutland"
+}, {
+    "ID": "#509",
+    "Chinese": "扒手猫",
+    "Japanese": "チョロネコ",
+    "English": "Purrloin"
+}, {
+    "ID": "#510",
+    "Chinese": "酷豹",
+    "Japanese": "レパルダス",
+    "English": "Liepard"
+}, {
+    "ID": "#511",
+    "Chinese": "花椰猴",
+    "Japanese": "ヤナップ",
+    "English": "Pansage"
+}, {
+    "ID": "#512",
+    "Chinese": "花椰猿",
+    "Japanese": "ヤナッキー",
+    "English": "Simisage"
+}, {
+    "ID": "#513",
+    "Chinese": "爆香猴",
+    "Japanese": "バオップ",
+    "English": "Pansear"
+}, {
+    "ID": "#514",
+    "Chinese": "爆香猿",
+    "Japanese": "バオッキー",
+    "English": "Simisear"
+}, {
+    "ID": "#515",
+    "Chinese": "冷水猴",
+    "Japanese": "ヒヤップ",
+    "English": "Panpour"
+}, {
+    "ID": "#516",
+    "Chinese": "冷水猿",
+    "Japanese": "ヒヤッキー",
+    "English": "Simipour"
+}, {
+    "ID": "#517",
+    "Chinese": "食梦梦",
+    "Japanese": "ムンナ",
+    "English": "Munna"
+}, {
+    "ID": "#518",
+    "Chinese": "梦梦蚀",
+    "Japanese": "ムシャーナ",
+    "English": "Musharna"
+}, {
+    "ID": "#519",
+    "Chinese": "豆豆鸽",
+    "Japanese": "マメパト",
+    "English": "Pidove"
+}, {
+    "ID": "#520",
+    "Chinese": "咕咕鸽",
+    "Japanese": "ハトーボー",
+    "English": "Tranquill"
+}, {
+    "ID": "#521",
+    "Chinese": "高傲雉鸡",
+    "Japanese": "ケンホロウ",
+    "English": "Unfezant"
+}, {
+    "ID": "#522",
+    "Chinese": "斑斑马",
+    "Japanese": "シママ",
+    "English": "Blitzle"
+}, {
+    "ID": "#523",
+    "Chinese": "雷电斑马",
+    "Japanese": "ゼブライカ",
+    "English": "Zebstrika"
+}, {
+    "ID": "#524",
+    "Chinese": "石丸子",
+    "Japanese": "ダンゴロ",
+    "English": "Roggenrola"
+}, {
+    "ID": "#525",
+    "Chinese": "地幔岩",
+    "Japanese": "ガントル",
+    "English": "Boldore"
+}, {
+    "ID": "#526",
+    "Chinese": "庞岩怪",
+    "Japanese": "ギガイアス",
+    "English": "Gigalith"
+}, {
+    "ID": "#527",
+    "Chinese": "滚滚蝙蝠",
+    "Japanese": "コロモリ",
+    "English": "Woobat"
+}, {
+    "ID": "#528",
+    "Chinese": "心蝙蝠",
+    "Japanese": "ココロモリ",
+    "English": "Swoobat"
+}, {
+    "ID": "#529",
+    "Chinese": "螺钉地鼠",
+    "Japanese": "モグリュー",
+    "English": "Drilbur"
+}, {
+    "ID": "#530",
+    "Chinese": "龙头地鼠",
+    "Japanese": "ドリュウズ",
+    "English": "Excadrill"
+}, {
+    "ID": "#531",
+    "Chinese": "差不多娃娃",
+    "Japanese": "タブンネ",
+    "English": "Audino"
+}, {
+    "ID": "#532",
+    "Chinese": "搬运小匠",
+    "Japanese": "ドッコラー",
+    "English": "Timburr"
+}, {
+    "ID": "#533",
+    "Chinese": "铁骨土人",
+    "Japanese": "ドテッコツ",
+    "English": "Gurdurr"
+}, {
+    "ID": "#534",
+    "Chinese": "修建老匠",
+    "Japanese": "ローブシン",
+    "English": "Conkeldurr"
+}, {
+    "ID": "#535",
+    "Chinese": "圆蝌蚪",
+    "Japanese": "オタマロ",
+    "English": "Tympole"
+}, {
+    "ID": "#536",
+    "Chinese": "蓝蟾蜍",
+    "Japanese": "ガマガル",
+    "English": "Palpitoad"
+}, {
+    "ID": "#537",
+    "Chinese": "蟾蜍王",
+    "Japanese": "ガマゲロゲ",
+    "English": "Seismitoad"
+}, {
+    "ID": "#538",
+    "Chinese": "投摔鬼",
+    "Japanese": "ナゲキ",
+    "English": "Throh"
+}, {
+    "ID": "#539",
+    "Chinese": "打击鬼",
+    "Japanese": "ダゲキ",
+    "English": "Sawk"
+}, {
+    "ID": "#540",
+    "Chinese": "虫宝包",
+    "Japanese": "クルミル",
+    "English": "Sewaddle"
+}, {
+    "ID": "#541",
+    "Chinese": "宝包茧",
+    "Japanese": "クルマユ",
+    "English": "Swadloon"
+}, {
+    "ID": "#542",
+    "Chinese": "保姆虫",
+    "Japanese": "ハハコモリ",
+    "English": "Leavanny"
+}, {
+    "ID": "#543",
+    "Chinese": "百足蜈蚣",
+    "Japanese": "フシデ",
+    "English": "Venipede"
+}, {
+    "ID": "#544",
+    "Chinese": "车轮球",
+    "Japanese": "ホイーガ",
+    "English": "Whirlipede"
+}, {
+    "ID": "#545",
+    "Chinese": "蜈蚣王",
+    "Japanese": "ペンドラー",
+    "English": "Scolipede"
+}, {
+    "ID": "#546",
+    "Chinese": "木棉球",
+    "Japanese": "モンメン",
+    "English": "Cottonee"
+}, {
+    "ID": "#547",
+    "Chinese": "风妖精",
+    "Japanese": "エルフーン",
+    "English": "Whimsicott"
+}, {
+    "ID": "#548",
+    "Chinese": "百合根娃娃",
+    "Japanese": "チュリネ",
+    "English": "Petilil"
+}, {
+    "ID": "#549",
+    "Chinese": "裙儿小姐",
+    "Japanese": "ドレディア",
+    "English": "Lilligant"
+}, {
+    "ID": "#550",
+    "Chinese": "野蛮鲈鱼",
+    "Japanese": "バスラオ",
+    "English": "Basculin"
+}, {
+    "ID": "#551",
+    "Chinese": "黑眼鳄",
+    "Japanese": "メグロコ",
+    "English": "Sandile"
+}, {
+    "ID": "#552",
+    "Chinese": "混混鳄",
+    "Japanese": "ワルビル",
+    "English": "Krokorok"
+}, {
+    "ID": "#553",
+    "Chinese": "流氓鳄",
+    "Japanese": "ワルビアル",
+    "English": "Krookodile"
+}, {
+    "ID": "#554",
+    "Chinese": "火红不倒翁",
+    "Japanese": "ダルマッカ",
+    "English": "Darumaka"
+}, {
+    "ID": "#555",
+    "Chinese": "达摩狒狒",
+    "Japanese": "ヒヒダルマ",
+    "English": "Darmanitan"
+}, {
+    "ID": "#556",
+    "Chinese": "沙铃仙人掌",
+    "Japanese": "マラカッチ",
+    "English": "Maractus"
+}, {
+    "ID": "#557",
+    "Chinese": "石居蟹",
+    "Japanese": "イシズマイ",
+    "English": "Dwebble"
+}, {
+    "ID": "#558",
+    "Chinese": "岩殿居蟹",
+    "Japanese": "イワパレス",
+    "English": "Crustle"
+}, {
+    "ID": "#559",
+    "Chinese": "滑滑小子",
+    "Japanese": "ズルッグ",
+    "English": "Scraggy"
+}, {
+    "ID": "#560",
+    "Chinese": "头巾混混",
+    "Japanese": "ズルズキン",
+    "English": "Scrafty"
+}, {
+    "ID": "#561",
+    "Chinese": "象征鸟",
+    "Japanese": "シンボラー",
+    "English": "Sigilyph"
+}, {
+    "ID": "#562",
+    "Chinese": "哭哭面具",
+    "Japanese": "デスマス",
+    "English": "Yamask"
+}, {
+    "ID": "#563",
+    "Chinese": "死神棺",
+    "Japanese": "デスカーン",
+    "English": "Cofagrigus"
+}, {
+    "ID": "#564",
+    "Chinese": "原盖海龟",
+    "Japanese": "プロトーガ",
+    "English": "Tirtouga"
+}, {
+    "ID": "#565",
+    "Chinese": "肋骨海龟",
+    "Japanese": "アバゴーラ",
+    "English": "Carracosta"
+}, {
+    "ID": "#566",
+    "Chinese": "始祖小鸟",
+    "Japanese": "アーケン",
+    "English": "Archen"
+}, {
+    "ID": "#567",
+    "Chinese": "始祖大鸟",
+    "Japanese": "アーケオス",
+    "English": "Archeops"
+}, {
+    "ID": "#568",
+    "Chinese": "破破袋",
+    "Japanese": "ヤブクロン",
+    "English": "Trubbish"
+}, {
+    "ID": "#569",
+    "Chinese": "灰尘山",
+    "Japanese": "ダストダス",
+    "English": "Garbodor"
+}, {
+    "ID": "#570",
+    "Chinese": "索罗亚",
+    "Japanese": "ゾロア",
+    "English": "Zorua"
+}, {
+    "ID": "#571",
+    "Chinese": "索罗亚克",
+    "Japanese": "ゾロアーク",
+    "English": "Zoroark"
+}, {
+    "ID": "#572",
+    "Chinese": "泡沫栗鼠",
+    "Japanese": "チラーミィ",
+    "English": "Minccino"
+}, {
+    "ID": "#573",
+    "Chinese": "奇诺栗鼠",
+    "Japanese": "チラチーノ",
+    "English": "Cinccino"
+}, {
+    "ID": "#574",
+    "Chinese": "哥德宝宝",
+    "Japanese": "ゴチム",
+    "English": "Gothita"
+}, {
+    "ID": "#575",
+    "Chinese": "哥德小童",
+    "Japanese": "ゴチミル",
+    "English": "Gothorita"
+}, {
+    "ID": "#576",
+    "Chinese": "哥德小姐",
+    "Japanese": "ゴチルゼル",
+    "English": "Gothitelle"
+}, {
+    "ID": "#577",
+    "Chinese": "单卵细胞球",
+    "Japanese": "ユニラン",
+    "English": "Solosis"
+}, {
+    "ID": "#578",
+    "Chinese": "双卵细胞球",
+    "Japanese": "ダブラン",
+    "English": "Duosion"
+}, {
+    "ID": "#579",
+    "Chinese": "人造细胞卵",
+    "Japanese": "ランクルス",
+    "English": "Reuniclus"
+}, {
+    "ID": "#580",
+    "Chinese": "鸭宝宝",
+    "Japanese": "コアルヒー",
+    "English": "Ducklett"
+}, {
+    "ID": "#581",
+    "Chinese": "舞天鹅",
+    "Japanese": "スワンナ",
+    "English": "Swanna"
+}, {
+    "ID": "#582",
+    "Chinese": "迷你冰",
+    "Japanese": "バニプッチ",
+    "English": "Vanillite"
+}, {
+    "ID": "#583",
+    "Chinese": "多多冰",
+    "Japanese": "バニリッチ",
+    "English": "Vanillish"
+}, {
+    "ID": "#584",
+    "Chinese": "双倍多多冰",
+    "Japanese": "バイバニラ",
+    "English": "Vanilluxe"
+}, {
+    "ID": "#585",
+    "Chinese": "四季鹿",
+    "Japanese": "シキジカ",
+    "English": "Deerling"
+}, {
+    "ID": "#586",
+    "Chinese": "萌芽鹿",
+    "Japanese": "メブキジカ",
+    "English": "Sawsbuck"
+}, {
+    "ID": "#587",
+    "Chinese": "电飞鼠",
+    "Japanese": "エモンガ",
+    "English": "Emolga"
+}, {
+    "ID": "#588",
+    "Chinese": "盖盖虫",
+    "Japanese": "カブルモ",
+    "English": "Karrablast"
+}, {
+    "ID": "#589",
+    "Chinese": "骑士蜗牛",
+    "Japanese": "シュバルゴ",
+    "English": "Escavalier"
+}, {
+    "ID": "#590",
+    "Chinese": "哎呀球菇",
+    "Japanese": "タマゲタケ",
+    "English": "Foongus"
+}, {
+    "ID": "#591",
+    "Chinese": "败露球菇",
+    "Japanese": "モロバレル",
+    "English": "Amoonguss"
+}, {
+    "ID": "#592",
+    "Chinese": "轻飘飘",
+    "Japanese": "プルリル",
+    "English": "Frillish"
+}, {
+    "ID": "#593",
+    "Chinese": "胖嘟嘟",
+    "Japanese": "ブルンゲル",
+    "English": "Jellicent"
+}, {
+    "ID": "#594",
+    "Chinese": "保姆曼波",
+    "Japanese": "ママンボウ",
+    "English": "Alomomola"
+}, {
+    "ID": "#595",
+    "Chinese": "电电虫",
+    "Japanese": "バチュル",
+    "English": "Joltik"
+}, {
+    "ID": "#596",
+    "Chinese": "电蜘蛛",
+    "Japanese": "デンチュラ",
+    "English": "Galvantula"
+}, {
+    "ID": "#597",
+    "Chinese": "种子铁球",
+    "Japanese": "テッシード",
+    "English": "Ferroseed"
+}, {
+    "ID": "#598",
+    "Chinese": "坚果哑铃",
+    "Japanese": "ナットレイ",
+    "English": "Ferrothorn"
+}, {
+    "ID": "#599",
+    "Chinese": "齿轮儿",
+    "Japanese": "ギアル",
+    "English": "Klink"
+}, {
+    "ID": "#600",
+    "Chinese": "齿轮组",
+    "Japanese": "ギギアル",
+    "English": "Klang"
+}, {
+    "ID": "#601",
+    "Chinese": "齿轮怪",
+    "Japanese": "ギギギアル",
+    "English": "Klinklang"
+}, {
+    "ID": "#602",
+    "Chinese": "麻麻小鱼",
+    "Japanese": "シビシラス",
+    "English": "Tynamo"
+}, {
+    "ID": "#603",
+    "Chinese": "麻麻鳗",
+    "Japanese": "シビビール",
+    "English": "Eelektrik"
+}, {
+    "ID": "#604",
+    "Chinese": "麻麻鳗鱼王",
+    "Japanese": "シビルドン",
+    "English": "Eelektross"
+}, {
+    "ID": "#605",
+    "Chinese": "小灰怪",
+    "Japanese": "リグレー",
+    "English": "Elgyem"
+}, {
+    "ID": "#606",
+    "Chinese": "大宇怪",
+    "Japanese": "オーベム",
+    "English": "Beheeyem"
+}, {
+    "ID": "#607",
+    "Chinese": "烛光灵",
+    "Japanese": "ヒトモシ",
+    "English": "Litwick"
+}, {
+    "ID": "#608",
+    "Chinese": "灯火幽灵",
+    "Japanese": "ランプラー",
+    "English": "Lampent"
+}, {
+    "ID": "#609",
+    "Chinese": "水晶灯火灵",
+    "Japanese": "シャンデラ",
+    "English": "Chandelure"
+}, {
+    "ID": "#610",
+    "Chinese": "牙牙",
+    "Japanese": "キバゴ",
+    "English": "Axew"
+}, {
+    "ID": "#611",
+    "Chinese": "斧牙龙",
+    "Japanese": "オノンド",
+    "English": "Fraxure"
+}, {
+    "ID": "#612",
+    "Chinese": "双斧战龙",
+    "Japanese": "オノノクス",
+    "English": "Haxorus"
+}, {
+    "ID": "#613",
+    "Chinese": "喷嚏熊",
+    "Japanese": "クマシュン",
+    "English": "Cubchoo"
+}, {
+    "ID": "#614",
+    "Chinese": "冻原熊",
+    "Japanese": "ツンベアー",
+    "English": "Beartic"
+}, {
+    "ID": "#615",
+    "Chinese": "几何雪花",
+    "Japanese": "フリージオ",
+    "English": "Cryogonal"
+}, {
+    "ID": "#616",
+    "Chinese": "小嘴蜗",
+    "Japanese": "チョボマキ",
+    "English": "Shelmet"
+}, {
+    "ID": "#617",
+    "Chinese": "敏捷虫",
+    "Japanese": "アギルダー",
+    "English": "Accelgor"
+}, {
+    "ID": "#618",
+    "Chinese": "泥巴鱼",
+    "Japanese": "マッギョ",
+    "English": "Stunfisk"
+}, {
+    "ID": "#619",
+    "Chinese": "功夫鼬",
+    "Japanese": "コジョフー",
+    "English": "Mienfoo"
+}, {
+    "ID": "#620",
+    "Chinese": "师父鼬",
+    "Japanese": "コジョンド",
+    "English": "Mienshao"
+}, {
+    "ID": "#621",
+    "Chinese": "赤面龙",
+    "Japanese": "クリムガン",
+    "English": "Druddigon"
+}, {
+    "ID": "#622",
+    "Chinese": "泥偶小人",
+    "Japanese": "ゴビット",
+    "English": "Golett"
+}, {
+    "ID": "#623",
+    "Chinese": "泥偶巨人",
+    "Japanese": "ゴルーグ",
+    "English": "Golurk"
+}, {
+    "ID": "#624",
+    "Chinese": "驹刀小兵",
+    "Japanese": "コマタナ",
+    "English": "Pawniard"
+}, {
+    "ID": "#625",
+    "Chinese": "劈斩司令",
+    "Japanese": "キリキザン",
+    "English": "Bisharp"
+}, {
+    "ID": "#626",
+    "Chinese": "爆炸头水牛",
+    "Japanese": "バッフロン",
+    "English": "Bouffalant"
+}, {
+    "ID": "#627",
+    "Chinese": "毛头小鹰",
+    "Japanese": "ワシボン",
+    "English": "Rufflet"
+}, {
+    "ID": "#628",
+    "Chinese": "勇士雄鹰",
+    "Japanese": "ウォーグル",
+    "English": "Braviary"
+}, {
+    "ID": "#629",
+    "Chinese": "秃鹰丫头",
+    "Japanese": "バルチャイ",
+    "English": "Vullaby"
+}, {
+    "ID": "#630",
+    "Chinese": "秃鹰娜",
+    "Japanese": "バルジーナ",
+    "English": "Mandibuzz"
+}, {
+    "ID": "#631",
+    "Chinese": "熔蚁兽",
+    "Japanese": "クイタラン",
+    "English": "Heatmor"
+}, {
+    "ID": "#632",
+    "Chinese": "铁蚁",
+    "Japanese": "アイアント",
+    "English": "Durant"
+}, {
+    "ID": "#633",
+    "Chinese": "单首龙",
+    "Japanese": "モノズ",
+    "English": "Deino"
+}, {
+    "ID": "#634",
+    "Chinese": "双首暴龙",
+    "Japanese": "ジヘッド",
+    "English": "Zweilous"
+}, {
+    "ID": "#635",
+    "Chinese": "三首恶龙",
+    "Japanese": "サザンドラ",
+    "English": "Hydreigon"
+}, {
+    "ID": "#636",
+    "Chinese": "燃烧虫",
+    "Japanese": "メラルバ",
+    "English": "Larvesta"
+}, {
+    "ID": "#637",
+    "Chinese": "火神蛾",
+    "Japanese": "ウルガモス",
+    "English": "Volcarona"
+}, {
+    "ID": "#638",
+    "Chinese": "勾帕路翁",
+    "Japanese": "コバルオン",
+    "English": "Cobalion"
+}, {
+    "ID": "#639",
+    "Chinese": "代拉基翁",
+    "Japanese": "テラキオン",
+    "English": "Terrakion"
+}, {
+    "ID": "#640",
+    "Chinese": "毕力吉翁",
+    "Japanese": "ビリジオン",
+    "English": "Virizion"
+}, {
+    "ID": "#641",
+    "Chinese": "龙卷云",
+    "Japanese": "トルネロス",
+    "English": "Tornadus"
+}, {
+    "ID": "#642",
+    "Chinese": "雷电云",
+    "Japanese": "ボルトロス",
+    "English": "Thundurus"
+}, {
+    "ID": "#643",
+    "Chinese": "莱希拉姆",
+    "Japanese": "レシラム",
+    "English": "Reshiram"
+}, {
+    "ID": "#644",
+    "Chinese": "捷克罗姆",
+    "Japanese": "ゼクロム",
+    "English": "Zekrom"
+}, {
+    "ID": "#645",
+    "Chinese": "土地云",
+    "Japanese": "ランドロス",
+    "English": "Landorus"
+}, {
+    "ID": "#646",
+    "Chinese": "酋雷姆",
+    "Japanese": "キュレム",
+    "English": "Kyurem"
+}, {
+    "ID": "#647",
+    "Chinese": "凯路迪欧",
+    "Japanese": "ケルディオ",
+    "English": "Keldeo"
+}, {
+    "ID": "#648",
+    "Chinese": "美洛耶塔",
+    "Japanese": "メロエッタ",
+    "English": "Meloetta"
+}, {
+    "ID": "#649",
+    "Chinese": "盖诺赛克特",
+    "Japanese": "ゲノセクト",
+    "English": "Genesect"
+}, {
+    "ID": "第六世代"
+}, {
+    "ID": "#650",
+    "Chinese": "哈力栗",
+    "Japanese": "ハリマロン",
+    "English": "Chespin"
+}, {
+    "ID": "#651",
+    "Chinese": "胖胖哈力",
+    "Japanese": "ハリボーグ",
+    "English": "Quilladin"
+}, {
+    "ID": "#652",
+    "Chinese": "布里卡隆",
+    "Japanese": "ブリガロン",
+    "English": "Chesnaught"
+}, {
+    "ID": "#653",
+    "Chinese": "火狐狸",
+    "Japanese": "フォッコ",
+    "English": "Fennekin"
+}, {
+    "ID": "#654",
+    "Chinese": "长尾火狐",
+    "Japanese": "テールナー",
+    "English": "Braixen"
+}, {
+    "ID": "#655",
+    "Chinese": "妖火红狐",
+    "Japanese": "マフォクシー",
+    "English": "Delphox"
+}, {
+    "ID": "#656",
+    "Chinese": "呱呱泡蛙",
+    "Japanese": "ケロマツ",
+    "English": "Froakie"
+}, {
+    "ID": "#657",
+    "Chinese": "呱头蛙",
+    "Japanese": "ゲコガシラ",
+    "English": "Frogadier"
+}, {
+    "ID": "#658",
+    "Chinese": "甲贺忍蛙",
+    "Japanese": "ゲッコウガ",
+    "English": "Greninja"
+}, {
+    "ID": "#659",
+    "Chinese": "掘掘兔",
+    "Japanese": "ホルビー",
+    "English": "Bunnelby"
+}, {
+    "ID": "#660",
+    "Chinese": "掘地兔",
+    "Japanese": "ホルード",
+    "English": "Diggersby"
+}, {
+    "ID": "#661",
+    "Chinese": "小箭雀",
+    "Japanese": "ヤヤコマ",
+    "English": "Fletchling"
+}, {
+    "ID": "#662",
+    "Chinese": "火箭雀",
+    "Japanese": "ヒノヤコマ",
+    "English": "Fletchinder"
+}, {
+    "ID": "#663",
+    "Chinese": "烈箭鹰",
+    "Japanese": "ファイアロー",
+    "English": "Talonflame"
+}, {
+    "ID": "#664",
+    "Chinese": "粉蝶虫",
+    "Japanese": "コフキムシ",
+    "English": "Scatterbug"
+}, {
+    "ID": "#665",
+    "Chinese": "粉蝶蛹",
+    "Japanese": "コフーライ",
+    "English": "Spewpa"
+}, {
+    "ID": "#666",
+    "Chinese": "彩粉蝶",
+    "Japanese": "ビビヨン",
+    "English": "Vivillon"
+}, {
+    "ID": "#667",
+    "Chinese": "小狮狮",
+    "Japanese": "シシコ",
+    "English": "Litleo"
+}, {
+    "ID": "#668",
+    "Chinese": "火炎狮",
+    "Japanese": "カエンジシ",
+    "English": "Pyroar"
+}, {
+    "ID": "#669",
+    "Chinese": "花蓓蓓",
+    "Japanese": "フラベベ",
+    "English": "Flabébé"
+}, {
+    "ID": "#670",
+    "Chinese": "花叶蒂",
+    "Japanese": "フラエッテ",
+    "English": "Floette"
+}, {
+    "ID": "#671",
+    "Chinese": "花洁夫人",
+    "Japanese": "フラージェス",
+    "English": "Florges"
+}, {
+    "ID": "#672",
+    "Chinese": "坐骑小羊",
+    "Japanese": "メェークル",
+    "English": "Skiddo"
+}, {
+    "ID": "#673",
+    "Chinese": "坐骑山羊",
+    "Japanese": "ゴーゴート",
+    "English": "Gogoat"
+}, {
+    "ID": "#674",
+    "Chinese": "顽皮熊猫",
+    "Japanese": "ヤンチャム",
+    "English": "Pancham"
+}, {
+    "ID": "#675",
+    "Chinese": "流氓熊猫",
+    "Japanese": "ゴロンダ",
+    "English": "Pangoro"
+}, {
+    "ID": "#676",
+    "Chinese": "多丽米亚",
+    "Japanese": "トリミアン",
+    "English": "Furfrou"
+}, {
+    "ID": "#677",
+    "Chinese": "妙喵",
+    "Japanese": "ニャスパー",
+    "English": "Espurr"
+}, {
+    "ID": "#678",
+    "Chinese": "超能妙喵",
+    "Japanese": "ニャオニクス",
+    "English": "Meowstic"
+}, {
+    "ID": "#679",
+    "Chinese": "独剑鞘",
+    "Japanese": "ヒトツキ",
+    "English": "Honedge"
+}, {
+    "ID": "#680",
+    "Chinese": "双剑鞘",
+    "Japanese": "ニダンギル",
+    "English": "Doublade"
+}, {
+    "ID": "#681",
+    "Chinese": "坚盾剑怪",
+    "Japanese": "ギルガルド",
+    "English": "Aegislash"
+}, {
+    "ID": "#682",
+    "Chinese": "粉香香",
+    "Japanese": "シュシュプ",
+    "English": "Spritzee"
+}, {
+    "ID": "#683",
+    "Chinese": "芳香精",
+    "Japanese": "フレフワン",
+    "English": "Aromatisse"
+}, {
+    "ID": "#684",
+    "Chinese": "绵绵泡芙",
+    "Japanese": "ペロッパフ",
+    "English": "Swirlix"
+}, {
+    "ID": "#685",
+    "Chinese": "胖甜妮",
+    "Japanese": "ペロリーム",
+    "English": "Slurpuff"
+}, {
+    "ID": "#686",
+    "Chinese": "好啦鱿",
+    "Japanese": "マーイーカ",
+    "English": "Inkay"
+}, {
+    "ID": "#687",
+    "Chinese": "乌贼王",
+    "Japanese": "カラマネロ",
+    "English": "Malamar"
+}, {
+    "ID": "#688",
+    "Chinese": "龟脚脚",
+    "Japanese": "カメテテ",
+    "English": "Binacle"
+}, {
+    "ID": "#689",
+    "Chinese": "龟足巨铠",
+    "Japanese": "ガメノデス",
+    "English": "Barbaracle"
+}, {
+    "ID": "#690",
+    "Chinese": "垃垃藻",
+    "Japanese": "クズモー",
+    "English": "Skrelp"
+}, {
+    "ID": "#691",
+    "Chinese": "毒藻龙",
+    "Japanese": "ドラミドロ",
+    "English": "Dragalge"
+}, {
+    "ID": "#692",
+    "Chinese": "铁臂枪虾",
+    "Japanese": "ウデッポウ",
+    "English": "Clauncher"
+}, {
+    "ID": "#693",
+    "Chinese": "钢炮臂虾",
+    "Japanese": "ブロスター",
+    "English": "Clawitzer"
+}, {
+    "ID": "#694",
+    "Chinese": "伞电蜥",
+    "Japanese": "エリキテル",
+    "English": "Helioptile"
+}, {
+    "ID": "#695",
+    "Chinese": "光电伞蜥",
+    "Japanese": "エレザード",
+    "English": "Heliolisk"
+}, {
+    "ID": "#696",
+    "Chinese": "宝宝暴龙",
+    "Japanese": "チゴラス",
+    "English": "Tyrunt"
+}, {
+    "ID": "#697",
+    "Chinese": "怪颚龙",
+    "Japanese": "ガチゴラス",
+    "English": "Tyrantrum"
+}, {
+    "ID": "#698",
+    "Chinese": "冰雪龙",
+    "Japanese": "アマルス",
+    "English": "Amaura"
+}, {
+    "ID": "#699",
+    "Chinese": "冰雪巨龙",
+    "Japanese": "アマルルガ",
+    "English": "Aurorus"
+}, {
+    "ID": "#700",
+    "Chinese": "仙子伊布",
+    "Japanese": "ニンフィア",
+    "English": "Sylveon"
+}, {
+    "ID": "#701",
+    "Chinese": "摔角鹰人",
+    "Japanese": "ルチャブル",
+    "English": "Hawlucha"
+}, {
+    "ID": "#702",
+    "Chinese": "咚咚鼠",
+    "Japanese": "デデンネ",
+    "English": "Dedenne"
+}, {
+    "ID": "#703",
+    "Chinese": "小碎钻",
+    "Japanese": "メレシー",
+    "English": "Carbink"
+}, {
+    "ID": "#704",
+    "Chinese": "黏黏宝",
+    "Japanese": "ヌメラ",
+    "English": "Goomy"
+}, {
+    "ID": "#705",
+    "Chinese": "黏美儿",
+    "Japanese": "ヌメイル",
+    "English": "Sliggoo"
+}, {
+    "ID": "#706",
+    "Chinese": "黏美龙",
+    "Japanese": "ヌメルゴン",
+    "English": "Goodra"
+}, {
+    "ID": "#707",
+    "Chinese": "钥圈儿",
+    "Japanese": "クレッフィ",
+    "English": "Klefki"
+}, {
+    "ID": "#708",
+    "Chinese": "小木灵",
+    "Japanese": "ボクレー",
+    "English": "Phantump"
+}, {
+    "ID": "#709",
+    "Chinese": "朽木妖",
+    "Japanese": "オーロット",
+    "English": "Trevenant"
+}, {
+    "ID": "#710",
+    "Chinese": "南瓜精",
+    "Japanese": "バケッチャ",
+    "English": "Pumpkaboo"
+}, {
+    "ID": "#711",
+    "Chinese": "南瓜怪人",
+    "Japanese": "パンプジン",
+    "English": "Gourgeist"
+}, {
+    "ID": "#712",
+    "Chinese": "冰宝",
+    "Japanese": "カチコール",
+    "English": "Bergmite"
+}, {
+    "ID": "#713",
+    "Chinese": "冰岩怪",
+    "Japanese": "クレベース",
+    "English": "Avalugg"
+}, {
+    "ID": "#714",
+    "Chinese": "嗡蝠",
+    "Japanese": "オンバット",
+    "English": "Noibat"
+}, {
+    "ID": "#715",
+    "Chinese": "音波龙",
+    "Japanese": "オンバーン",
+    "English": "Noivern"
+}, {
+    "ID": "#716",
+    "Chinese": "哲尔尼亚斯",
+    "Japanese": "ゼルネアス",
+    "English": "Xerneas"
+}, {
+    "ID": "#717",
+    "Chinese": "伊裴尔塔尔",
+    "Japanese": "イベルタル",
+    "English": "Yveltal"
+}, {
+    "ID": "#718",
+    "Chinese": "基格尔德",
+    "Japanese": "ジガルデ",
+    "English": "Zygarde"
+}, {
+    "ID": "#719",
+    "Chinese": "蒂安希",
+    "Japanese": "ディアンシー",
+    "English": "Diancie"
+}, {
+    "ID": "#720",
+    "Chinese": "胡帕",
+    "Japanese": "フーパ",
+    "English": "Hoopa"
+}, {
+    "ID": "#721",
+    "Chinese": "波尔凯尼恩",
+    "Japanese": "ボルケニオン",
+    "English": "Volcanion"
+}, {
+    "ID": "第七世代"
+}, {
+    "ID": "#722",
+    "Chinese": "木木枭",
+    "Japanese": "モクロー",
+    "English": "Rowlet"
+}, {
+    "ID": "#723",
+    "Chinese": "投羽枭",
+    "Japanese": "フクスロー",
+    "English": "Dartrix"
+}, {
+    "ID": "#724",
+    "Chinese": "狙射树枭",
+    "Japanese": "ジュナイパー",
+    "English": "Decidueye"
+}, {
+    "ID": "#725",
+    "Chinese": "火斑喵",
+    "Japanese": "ニャビー",
+    "English": "Litten"
+}, {
+    "ID": "#726",
+    "Chinese": "炎热喵",
+    "Japanese": "ニャヒート",
+    "English": "Torracat"
+}, {
+    "ID": "#727",
+    "Chinese": "炽焰咆哮虎",
+    "Japanese": "ガオガエン",
+    "English": "Incineroar"
+}, {
+    "ID": "#728",
+    "Chinese": "球球海狮",
+    "Japanese": "アシマリ",
+    "English": "Popplio"
+}, {
+    "ID": "#729",
+    "Chinese": "花漾海狮",
+    "Japanese": "オシャマリ",
+    "English": "Brionne"
+}, {
+    "ID": "#730",
+    "Chinese": "西狮海壬",
+    "Japanese": "アシレーヌ",
+    "English": "Primarina"
+}, {
+    "ID": "#731",
+    "Chinese": "小笃儿",
+    "Japanese": "ツツケラ",
+    "English": "Pikipek"
+}, {
+    "ID": "#732",
+    "Chinese": "喇叭啄鸟",
+    "Japanese": "ケララッパ",
+    "English": "Trumbeak"
+}, {
+    "ID": "#733",
+    "Chinese": "铳嘴大鸟",
+    "Japanese": "ドデカバシ",
+    "English": "Toucannon"
+}, {
+    "ID": "#734",
+    "Chinese": "猫鼬少",
+    "Japanese": "ヤングース",
+    "English": "Yungoos"
+}, {
+    "ID": "#735",
+    "Chinese": "猫鼬探长",
+    "Japanese": "デカグース",
+    "English": "Gumshoos"
+}, {
+    "ID": "#736",
+    "Chinese": "强颚鸡母虫",
+    "Japanese": "アゴジムシ",
+    "English": "Grubbin"
+}, {
+    "ID": "#737",
+    "Chinese": "虫电宝",
+    "Japanese": "デンヂムシ",
+    "English": "Charjabug"
+}, {
+    "ID": "#738",
+    "Chinese": "锹农炮虫",
+    "Japanese": "クワガノン",
+    "English": "Vikavolt"
+}, {
+    "ID": "#739",
+    "Chinese": "好胜蟹",
+    "Japanese": "マケンカニ",
+    "English": "Crabrawler"
+}, {
+    "ID": "#740",
+    "Chinese": "好胜毛蟹",
+    "Japanese": "ケケンカニ",
+    "English": "Crabominable"
+}, {
+    "ID": "#741",
+    "Chinese": "花舞鸟",
+    "Japanese": "オドリドリ",
+    "English": "Oricorio"
+}, {
+    "ID": "#742",
+    "Chinese": "萌虻",
+    "Japanese": "アブリー",
+    "English": "Cutiefly"
+}, {
+    "ID": "#743",
+    "Chinese": "蝶结萌虻",
+    "Japanese": "アブリボン",
+    "English": "Ribombee"
+}, {
+    "ID": "#744",
+    "Chinese": "岩狗狗",
+    "Japanese": "イワンコ",
+    "English": "Rockruff"
+}, {
+    "ID": "#745",
+    "Chinese": "鬃岩狼人",
+    "Japanese": "ルガルガン",
+    "English": "Lycanroc"
+}, {
+    "ID": "#746",
+    "Chinese": "弱丁鱼",
+    "Japanese": "ヨワシ",
+    "English": "Wishiwashi"
+}, {
+    "ID": "#747",
+    "Chinese": "好坏星",
+    "Japanese": "ヒドイデ",
+    "English": "Mareanie"
+}, {
+    "ID": "#748",
+    "Chinese": "超坏星",
+    "Japanese": "ドヒドイデ",
+    "English": "Toxapex"
+}, {
+    "ID": "#749",
+    "Chinese": "泥驴仔",
+    "Japanese": "ドロバンコ",
+    "English": "Mudbray"
+}, {
+    "ID": "#750",
+    "Chinese": "重泥挽马",
+    "Japanese": "バンバドロ",
+    "English": "Mudsdale"
+}, {
+    "ID": "#751",
+    "Chinese": "滴蛛",
+    "Japanese": "シズクモ",
+    "English": "Dewpider"
+}, {
+    "ID": "#752",
+    "Chinese": "滴蛛霸",
+    "Japanese": "オニシズクモ",
+    "English": "Araquanid"
+}, {
+    "ID": "#753",
+    "Chinese": "伪螳草",
+    "Japanese": "カリキリ",
+    "English": "Fomantis"
+}, {
+    "ID": "#754",
+    "Chinese": "兰螳花",
+    "Japanese": "ラランテス",
+    "English": "Lurantis"
+}, {
+    "ID": "#755",
+    "Chinese": "睡睡菇",
+    "Japanese": "ネマシュ",
+    "English": "Morelull"
+}, {
+    "ID": "#756",
+    "Chinese": "灯罩夜菇",
+    "Japanese": "マシェード",
+    "English": "Shiinotic"
+}, {
+    "ID": "#757",
+    "Chinese": "夜盗火蜥",
+    "Japanese": "ヤトウモリ",
+    "English": "Salandit"
+}, {
+    "ID": "#758",
+    "Chinese": "焰后蜥",
+    "Japanese": "エンニュート",
+    "English": "Salazzle"
+}, {
+    "ID": "#759",
+    "Chinese": "童偶熊",
+    "Japanese": "ヌイコグマ",
+    "English": "Stufful"
+}, {
+    "ID": "#760",
+    "Chinese": "穿着熊",
+    "Japanese": "キテルグマ",
+    "English": "Bewear"
+}, {
+    "ID": "#761",
+    "Chinese": "甜竹竹",
+    "Japanese": "アマカジ",
+    "English": "Bounsweet"
+}, {
+    "ID": "#762",
+    "Chinese": "甜舞妮",
+    "Japanese": "アママイコ",
+    "English": "Steenee"
+}, {
+    "ID": "#763",
+    "Chinese": "甜冷美后",
+    "Japanese": "アマージョ",
+    "English": "Tsareena"
+}, {
+    "ID": "#764",
+    "Chinese": "花疗环环",
+    "Japanese": "キュワワー",
+    "English": "Comfey"
+}, {
+    "ID": "#765",
+    "Chinese": "智挥猩",
+    "Japanese": "ヤレユータン",
+    "English": "Oranguru"
+}, {
+    "ID": "#766",
+    "Chinese": "投掷猴",
+    "Japanese": "ナゲツケサル",
+    "English": "Passimian"
+}, {
+    "ID": "#767",
+    "Chinese": "胆小虫",
+    "Japanese": "コソクムシ",
+    "English": "Wimpod"
+}, {
+    "ID": "#768",
+    "Chinese": "具甲武者",
+    "Japanese": "グソクムシャ",
+    "English": "Golisopod"
+}, {
+    "ID": "#769",
+    "Chinese": "沙丘娃",
+    "Japanese": "スナバァ",
+    "English": "Sandygast"
+}, {
+    "ID": "#770",
+    "Chinese": "噬沙堡爷",
+    "Japanese": "シロデスナ",
+    "English": "Palossand"
+}, {
+    "ID": "#771",
+    "Chinese": "拳海参",
+    "Japanese": "ナマコブシ",
+    "English": "Pyukumuku"
+}, {
+    "ID": "#772",
+    "Chinese": "属性：空",
+    "Japanese": "タイプ：ヌル",
+    "English": "Type: Null"
+}, {
+    "ID": "#773",
+    "Chinese": "银伴战兽",
+    "Japanese": "シルヴァディ",
+    "English": "Silvally"
+}, {
+    "ID": "#774",
+    "Chinese": "小陨星",
+    "Japanese": "メテノ",
+    "English": "Minior"
+}, {
+    "ID": "#775",
+    "Chinese": "树枕尾熊",
+    "Japanese": "ネッコアラ",
+    "English": "Komala"
+}, {
+    "ID": "#776",
+    "Chinese": "爆焰龟兽",
+    "Japanese": "バクガメス",
+    "English": "Turtonator"
+}, {
+    "ID": "#777",
+    "Chinese": "托戈德玛尔",
+    "Japanese": "トゲデマル",
+    "English": "Togedemaru"
+}, {
+    "ID": "#778",
+    "Chinese": "谜拟Ｑ",
+    "Japanese": "ミミッキュ",
+    "English": "Mimikyu"
+}, {
+    "ID": "#779",
+    "Chinese": "磨牙彩皮鱼",
+    "Japanese": "ハギギシリ",
+    "English": "Bruxish"
+}, {
+    "ID": "#780",
+    "Chinese": "老翁龙",
+    "Japanese": "ジジーロン",
+    "English": "Drampa"
+}, {
+    "ID": "#781",
+    "Chinese": "破破舵轮",
+    "Japanese": "ダダリン",
+    "English": "Dhelmise"
+}, {
+    "ID": "#782",
+    "Chinese": "心鳞宝",
+    "Japanese": "ジャラコ",
+    "English": "Jangmo-o"
+}, {
+    "ID": "#783",
+    "Chinese": "鳞甲龙",
+    "Japanese": "ジャランゴ",
+    "English": "Hakamo-o"
+}, {
+    "ID": "#784",
+    "Chinese": "杖尾鳞甲龙",
+    "Japanese": "ジャラランガ",
+    "English": "Kommo-o"
+}, {
+    "ID": "#785",
+    "Chinese": "卡璞・鸣鸣",
+    "Japanese": "カプ・コケコ",
+    "English": "Tapu Koko"
+}, {
+    "ID": "#786",
+    "Chinese": "卡璞・蝶蝶",
+    "Japanese": "カプ・テテフ",
+    "English": "Tapu Lele"
+}, {
+    "ID": "#787",
+    "Chinese": "卡璞・哞哞",
+    "Japanese": "カプ・ブルル",
+    "English": "Tapu Bulu"
+}, {
+    "ID": "#788",
+    "Chinese": "卡璞・鳍鳍",
+    "Japanese": "カプ・レヒレ",
+    "English": "Tapu Fini"
+}, {
+    "ID": "#789",
+    "Chinese": "科斯莫古",
+    "Japanese": "コスモッグ",
+    "English": "Cosmog"
+}, {
+    "ID": "#790",
+    "Chinese": "科斯莫姆",
+    "Japanese": "コスモウム",
+    "English": "Cosmoem"
+}, {
+    "ID": "#791",
+    "Chinese": "索尔迦雷欧",
+    "Japanese": "ソルガレオ",
+    "English": "Solgaleo"
+}, {
+    "ID": "#792",
+    "Chinese": "露奈雅拉",
+    "Japanese": "ルナアーラ",
+    "English": "Lunala"
+}, {
+    "ID": "#793",
+    "Chinese": "虚吾伊德",
+    "Japanese": "ウツロイド",
+    "English": "Nihilego"
+}, {
+    "ID": "#794",
+    "Chinese": "爆肌蚊",
+    "Japanese": "マッシブーン",
+    "English": "Buzzwole"
+}, {
+    "ID": "#795",
+    "Chinese": "费洛美螂",
+    "Japanese": "フェローチェ",
+    "English": "Pheromosa"
+}, {
+    "ID": "#796",
+    "Chinese": "电束木",
+    "Japanese": "デンジュモク",
+    "English": "Xurkitree"
+}, {
+    "ID": "#797",
+    "Chinese": "铁火辉夜",
+    "Japanese": "テッカグヤ",
+    "English": "Celesteela"
+}, {
+    "ID": "#798",
+    "Chinese": "纸御剑",
+    "Japanese": "カミツルギ",
+    "English": "Kartana"
+}, {
+    "ID": "#799",
+    "Chinese": "恶食大王",
+    "Japanese": "アクジキング",
+    "English": "Guzzlord"
+}, {
+    "ID": "#800",
+    "Chinese": "奈克洛兹玛",
+    "Japanese": "ネクロズマ",
+    "English": "Necrozma"
+}, {
+    "ID": "#801",
+    "Chinese": "玛机雅娜",
+    "Japanese": "マギアナ",
+    "English": "Magearna"
+}, {
+    "ID": "#802",
+    "Chinese": "玛夏多",
+    "Japanese": "マーシャドー",
+    "English": "Marshadow"
+}, {
+    "ID": "#803",
+    "Chinese": "毒贝比",
+    "Japanese": "ベベノム",
+    "English": "Poipole"
+}, {
+    "ID": "#804",
+    "Chinese": "四颚针龙",
+    "Japanese": "アーゴヨン",
+    "English": "Naganadel"
+}, {
+    "ID": "#805",
+    "Chinese": "垒磊石",
+    "Japanese": "ツンデツンデ",
+    "English": "Stakataka"
+}, {
+    "ID": "#806",
+    "Chinese": "砰头小丑",
+    "Japanese": "ズガドーン",
+    "English": "Blacephalon"
+}, {
+    "ID": "#807",
+    "Chinese": "捷拉奥拉",
+    "Japanese": "ゼラオラ",
+    "English": "Zeraora"
+}, {
+    "ID": "#808",
+    "Chinese": "美录坦",
+    "Japanese": "メルタン",
+    "English": "Meltan"
+}, {
+    "ID": "#809",
+    "Chinese": "美录梅塔",
+    "Japanese": "メルメタル",
+    "English": "Melmetal"
+}, {
+    "ID": "第八世代"
+}, {
+    "ID": "#810",
+    "Chinese": "敲音猴",
+    "Japanese": "サルノリ",
+    "English": "Grookey"
+}, {
+    "ID": "#811",
+    "Chinese": "啪咚猴",
+    "Japanese": "バチンキー",
+    "English": "Thwackey"
+}, {
+    "ID": "#812",
+    "Chinese": "轰擂金刚猩",
+    "Japanese": "ゴリランダー",
+    "English": "Rillaboom"
+}, {
+    "ID": "#813",
+    "Chinese": "炎兔儿",
+    "Japanese": "ヒバニー",
+    "English": "Scorbunny"
+}, {
+    "ID": "#814",
+    "Chinese": "腾蹴小将",
+    "Japanese": "ラビフット",
+    "English": "Raboot"
+}, {
+    "ID": "#815",
+    "Chinese": "闪焰王牌",
+    "Japanese": "エースバーン",
+    "English": "Cinderace"
+}, {
+    "ID": "#816",
+    "Chinese": "泪眼蜥",
+    "Japanese": "メッソン",
+    "English": "Sobble"
+}, {
+    "ID": "#817",
+    "Chinese": "变涩蜥",
+    "Japanese": "ジメレオン",
+    "English": "Drizzile"
+}, {
+    "ID": "#818",
+    "Chinese": "千面避役",
+    "Japanese": "インテレオン",
+    "English": "Inteleon"
+}, {
+    "ID": "#819",
+    "Chinese": "贪心栗鼠",
+    "Japanese": "ホシガリス",
+    "English": "Skwovet"
+}, {
+    "ID": "#820",
+    "Chinese": "藏饱栗鼠",
+    "Japanese": "ヨクバリス",
+    "English": "Greedent"
+}, {
+    "ID": "#821",
+    "Chinese": "稚山雀",
+    "Japanese": "ココガラ",
+    "English": "Rookidee"
+}, {
+    "ID": "#822",
+    "Chinese": "蓝鸦",
+    "Japanese": "アオガラス",
+    "English": "Corvisquire"
+}, {
+    "ID": "#823",
+    "Chinese": "钢铠鸦",
+    "Japanese": "アーマーガア",
+    "English": "Corviknight"
+}, {
+    "ID": "#824",
+    "Chinese": "索侦虫",
+    "Japanese": "サッチムシ",
+    "English": "Blipbug"
+}, {
+    "ID": "#825",
+    "Chinese": "天罩虫",
+    "Japanese": "レドームシ",
+    "English": "Dottler"
+}, {
+    "ID": "#826",
+    "Chinese": "以欧路普",
+    "Japanese": "イオルブ",
+    "English": "Orbeetle"
+}, {
+    "ID": "#827",
+    "Chinese": "偷儿狐",
+    "Japanese": "クスネ",
+    "English": "Nickit"
+}, {
+    "ID": "#828",
+    "Chinese": "狐大盗",
+    "Japanese": "フォクスライ",
+    "English": "Thievul"
+}, {
+    "ID": "#829",
+    "Chinese": "幼棉棉",
+    "Japanese": "ヒメンカ",
+    "English": "Gossifleur"
+}, {
+    "ID": "#830",
+    "Chinese": "白蓬蓬",
+    "Japanese": "ワタシラガ",
+    "English": "Eldegoss"
+}, {
+    "ID": "#831",
+    "Chinese": "毛辫羊",
+    "Japanese": "ウールー",
+    "English": "Wooloo"
+}, {
+    "ID": "#832",
+    "Chinese": "毛毛角羊",
+    "Japanese": "バイウールー",
+    "English": "Dubwool"
+}, {
+    "ID": "#833",
+    "Chinese": "咬咬龟",
+    "Japanese": "カムカメ",
+    "English": "Chewtle"
+}, {
+    "ID": "#834",
+    "Chinese": "暴噬龟",
+    "Japanese": "カジリガメ",
+    "English": "Drednaw"
+}, {
+    "ID": "#835",
+    "Chinese": "来电汪",
+    "Japanese": "ワンパチ",
+    "English": "Yamper"
+}, {
+    "ID": "#836",
+    "Chinese": "逐电犬",
+    "Japanese": "パルスワン",
+    "English": "Boltund"
+}, {
+    "ID": "#837",
+    "Chinese": "小炭仔",
+    "Japanese": "タンドン",
+    "English": "Rolycoly"
+}, {
+    "ID": "#838",
+    "Chinese": "大炭车",
+    "Japanese": "トロッゴン",
+    "English": "Carkol"
+}, {
+    "ID": "#839",
+    "Chinese": "巨炭山",
+    "Japanese": "セキタンザン",
+    "English": "Coalossal"
+}, {
+    "ID": "#840",
+    "Chinese": "啃果虫",
+    "Japanese": "カジッチュ",
+    "English": "Applin"
+}, {
+    "ID": "#841",
+    "Chinese": "苹裹龙",
+    "Japanese": "アップリュー",
+    "English": "Flapple"
+}, {
+    "ID": "#842",
+    "Chinese": "丰蜜龙",
+    "Japanese": "タルップル",
+    "English": "Appletun"
+}, {
+    "ID": "#843",
+    "Chinese": "沙包蛇",
+    "Japanese": "スナヘビ",
+    "English": "Silicobra"
+}, {
+    "ID": "#844",
+    "Chinese": "沙螺蟒",
+    "Japanese": "サダイジャ",
+    "English": "Sandaconda"
+}, {
+    "ID": "#845",
+    "Chinese": "古月鸟",
+    "Japanese": "ウッウ",
+    "English": "Cramorant"
+}, {
+    "ID": "#846",
+    "Chinese": "刺梭鱼",
+    "Japanese": "サシカマス",
+    "English": "Arrokuda"
+}, {
+    "ID": "#847",
+    "Chinese": "戽斗尖梭",
+    "Japanese": "カマスジョー",
+    "English": "Barraskewda"
+}, {
+    "ID": "#848",
+    "Chinese": "毒电婴",
+    "Japanese": "エレズン",
+    "English": "Toxel"
+}, {
+    "ID": "#849",
+    "Chinese": "颤弦蝾螈",
+    "Japanese": "ストリンダー",
+    "English": "Toxtricity"
+}, {
+    "ID": "#850",
+    "Chinese": "烧火蚣",
+    "Japanese": "ヤクデ",
+    "English": "Sizzlipede"
+}, {
+    "ID": "#851",
+    "Chinese": "焚焰蚣",
+    "Japanese": "マルヤクデ",
+    "English": "Centiskorch"
+}, {
+    "ID": "#852",
+    "Chinese": "拳拳蛸",
+    "Japanese": "タタッコ",
+    "English": "Clobbopus"
+}, {
+    "ID": "#853",
+    "Chinese": "八爪武师",
+    "Japanese": "オトスパス",
+    "English": "Grapploct"
+}, {
+    "ID": "#854",
+    "Chinese": "来悲茶",
+    "Japanese": "ヤバチャ",
+    "English": "Sinistea"
+}, {
+    "ID": "#855",
+    "Chinese": "怖思壶",
+    "Japanese": "ポットデス",
+    "English": "Polteageist"
+}, {
+    "ID": "#856",
+    "Chinese": "迷布莉姆",
+    "Japanese": "ミブリム",
+    "English": "Hatenna"
+}, {
+    "ID": "#857",
+    "Chinese": "提布莉姆",
+    "Japanese": "テブリム",
+    "English": "Hattrem"
+}, {
+    "ID": "#858",
+    "Chinese": "布莉姆温",
+    "Japanese": "ブリムオン",
+    "English": "Hatterene"
+}, {
+    "ID": "#859",
+    "Chinese": "捣蛋小妖",
+    "Japanese": "ベロバー",
+    "English": "Impidimp"
+}, {
+    "ID": "#860",
+    "Chinese": "诈唬魔",
+    "Japanese": "ギモー",
+    "English": "Morgrem"
+}, {
+    "ID": "#861",
+    "Chinese": "长毛巨魔",
+    "Japanese": "オーロンゲ",
+    "English": "Grimmsnarl"
+}, {
+    "ID": "#862",
+    "Chinese": "堵拦熊",
+    "Japanese": "タチフサグマ",
+    "English": "Obstagoon"
+}, {
+    "ID": "#863",
+    "Chinese": "喵头目",
+    "Japanese": "ニャイキング",
+    "English": "Perrserker"
+}, {
+    "ID": "#864",
+    "Chinese": "魔灵珊瑚",
+    "Japanese": "サニゴーン",
+    "English": "Cursola"
+}, {
+    "ID": "#865",
+    "Chinese": "葱游兵",
+    "Japanese": "ネギガナイト",
+    "English": "Sirfetch’d"
+}, {
+    "ID": "#866",
+    "Chinese": "踏冰人偶",
+    "Japanese": "バリコオル",
+    "English": "Mr. Rime"
+}, {
+    "ID": "#867",
+    "Chinese": "死神板",
+    "Japanese": "デスバーン",
+    "English": "Runerigus"
+}, {
+    "ID": "#868",
+    "Chinese": "小仙奶",
+    "Japanese": "マホミル",
+    "English": "Milcery"
+}, {
+    "ID": "#869",
+    "Chinese": "霜奶仙",
+    "Japanese": "マホイップ",
+    "English": "Alcremie"
+}, {
+    "ID": "#870",
+    "Chinese": "列阵兵",
+    "Japanese": "タイレーツ",
+    "English": "Falinks"
+}, {
+    "ID": "#871",
+    "Chinese": "啪嚓海胆",
+    "Japanese": "バチンウニ",
+    "English": "Pincurchin"
+}, {
+    "ID": "#872",
+    "Chinese": "雪吞虫",
+    "Japanese": "ユキハミ",
+    "English": "Snom"
+}, {
+    "ID": "#873",
+    "Chinese": "雪绒蛾",
+    "Japanese": "モスノウ",
+    "English": "Frosmoth"
+}, {
+    "ID": "#874",
+    "Chinese": "巨石丁",
+    "Japanese": "イシヘンジン",
+    "English": "Stonjourner"
+}, {
+    "ID": "#875",
+    "Chinese": "冰砌鹅",
+    "Japanese": "コオリッポ",
+    "English": "Eiscue"
+}, {
+    "ID": "#876",
+    "Chinese": "爱管侍",
+    "Japanese": "イエッサン",
+    "English": "Indeedee"
+}, {
+    "ID": "#877",
+    "Chinese": "莫鲁贝可",
+    "Japanese": "モルペコ",
+    "English": "Morpeko"
+}, {
+    "ID": "#878",
+    "Chinese": "铜象",
+    "Japanese": "ゾウドウ",
+    "English": "Cufant"
+}, {
+    "ID": "#879",
+    "Chinese": "大王铜象",
+    "Japanese": "ダイオウドウ",
+    "English": "Copperajah"
+}, {
+    "ID": "#880",
+    "Chinese": "雷鸟龙",
+    "Japanese": "パッチラゴン",
+    "English": "Dracozolt"
+}, {
+    "ID": "#881",
+    "Chinese": "雷鸟海兽",
+    "Japanese": "パッチルドン",
+    "English": "Arctozolt"
+}, {
+    "ID": "#882",
+    "Chinese": "鳃鱼龙",
+    "Japanese": "ウオノラゴン",
+    "English": "Dracovish"
+}, {
+    "ID": "#883",
+    "Chinese": "鳃鱼海兽",
+    "Japanese": "ウオチルドン",
+    "English": "Arctovish"
+}, {
+    "ID": "#884",
+    "Chinese": "铝钢龙",
+    "Japanese": "ジュラルドン",
+    "English": "Duraludon"
+}, {
+    "ID": "#885",
+    "Chinese": "多龙梅西亚",
+    "Japanese": "ドラメシヤ",
+    "English": "Dreepy"
+}, {
+    "ID": "#886",
+    "Chinese": "多龙奇",
+    "Japanese": "ドロンチ",
+    "English": "Drakloak"
+}, {
+    "ID": "#887",
+    "Chinese": "多龙巴鲁托",
+    "Japanese": "ドラパルト",
+    "English": "Dragapult"
+}, {
+    "ID": "#888",
+    "Chinese": "苍响",
+    "Japanese": "ザシアン",
+    "English": "Zacian"
+}, {
+    "ID": "#889",
+    "Chinese": "藏玛然特",
+    "Japanese": "ザマゼンタ",
+    "English": "Zamazenta"
+}, {
+    "ID": "#890",
+    "Chinese": "无极汰那",
+    "Japanese": "ムゲンダイナ",
+    "English": "Eternatus"
+}]
